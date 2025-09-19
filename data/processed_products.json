@@ -1,0 +1,7336 @@
+[
+  {
+    "category": "Displays & Projectors",
+    "brand": "Samsung",
+    "name": "Samsung QM50C 50\" UHD Professional Display",
+    "price": 950.0,
+    "features": "4K UHD Resolution; Slim Design; Tizen OS for Business",
+    "tier": "Standard",
+    "use_case_tags": [
+      "huddle_room",
+      "signage",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "samsung_magicinfo"
+    ]
+  },
+  {
+    "category": "Mounts & Racks",
+    "brand": "Chief",
+    "name": "LSM1U Universal Fixed Wall Mount",
+    "price": 249.99,
+    "features": "Fits 42\"-86\" displays; Micro-adjustable; Weight capacity: 200 lbs",
+    "tier": "Standard",
+    "use_case_tags": [
+      "boardroom",
+      "huddle_room",
+      "meeting_room"
+    ],
+    "compatibility_tags": [
+      "vesa"
+    ]
+  },
+  {
+    "category": "Video Conferencing",
+    "brand": "Poly",
+    "name": "Studio X30 All-In-One Video Bar with TC8 Controller",
+    "price": 1899.0,
+    "features": "4K Camera; NoiseBlockAI; Integrated speaker & mic; 8\" touch controller",
+    "tier": "Economy",
+    "use_case_tags": [
+      "huddle_room",
+      "small_room"
+    ],
+    "compatibility_tags": [
+      "poly_lens",
+      "teams",
+      "zoom"
+    ]
+  },
+  {
+    "category": "Mounts & Racks",
+    "brand": "Poly",
+    "name": "Studio X30 VESA and Wall Mount",
+    "price": 75.0,
+    "features": "Official mounting kit for Poly Studio X30 Video Bar",
+    "tier": "Standard",
+    "use_case_tags": [
+      "huddle_room",
+      "small_room"
+    ],
+    "compatibility_tags": [
+      "poly_x30"
+    ]
+  },
+  {
+    "category": "Cables & Connectivity",
+    "brand": "AWAV",
+    "name": "Standard Cable & Connector Kit",
+    "price": 150.0,
+    "features": "Includes necessary HDMI, USB, and power cables for a typical room installation",
+    "tier": "Economy",
+    "use_case_tags": [
+      "boardroom",
+      "huddle_room",
+      "meeting_room"
+    ],
+    "compatibility_tags": [
+      "hdmi",
+      "usb"
+    ]
+  },
+  {
+    "category": "Installation & Services",
+    "brand": "AWAV",
+    "name": "Installation, Testing & Commissioning",
+    "price": 999.0,
+    "features": "Full on-site setup, end-user training, and one-year support",
+    "tier": "Standard",
+    "use_case_tags": [
+      "boardroom",
+      "huddle_room",
+      "meeting_room"
+    ],
+    "compatibility_tags": [
+      "professional_services"
+    ]
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Samsung",
+    "name": "QM65C 65\" UHD Professional Display",
+    "price": 1650.0,
+    "features": "4K UHD Resolution; 500 nits brightness; Tizen OS for Business",
+    "tier": "Standard",
+    "use_case_tags": [
+      "boardroom",
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "samsung_magicinfo"
+    ]
+  },
+  {
+    "category": "Video Conferencing",
+    "brand": "Poly",
+    "name": "Studio X52 All-In-One Video Bar with TC10 Controller",
+    "price": 3499.0,
+    "features": "4K Camera with smart framing; 20MP sensor; 10\" touch controller; DirectorAI",
+    "tier": "Standard",
+    "use_case_tags": [
+      "boardroom",
+      "meeting_room"
+    ],
+    "compatibility_tags": [
+      "poly_lens",
+      "teams",
+      "zoom"
+    ]
+  },
+  {
+    "category": "Mounts & Racks",
+    "brand": "Poly",
+    "name": "Studio X52 VESA Mount",
+    "price": 89.0,
+    "features": "Official VESA mounting bracket for Poly Studio X52",
+    "tier": "Standard",
+    "use_case_tags": [
+      "boardroom",
+      "meeting_room"
+    ],
+    "compatibility_tags": [
+      "poly_x52"
+    ]
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Samsung",
+    "name": "QM55C 55\" UHD Professional Display",
+    "price": 1100.0,
+    "features": "4K UHD Resolution; Slim Design; 24/7 operation certified",
+    "tier": "Standard",
+    "use_case_tags": [
+      "huddle_room",
+      "medium_room",
+      "signage",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "samsung_magicinfo"
+    ]
+  },
+  {
+    "category": "Mounts & Racks",
+    "brand": "Custom",
+    "name": "Trolley Stand for 55\" Display",
+    "price": 450.0,
+    "features": "Mobile cart with locking casters and equipment shelf",
+    "tier": "Standard",
+    "use_case_tags": [
+      "classroom",
+      "flexible_space"
+    ],
+    "compatibility_tags": [
+      "vesa"
+    ]
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Samsung",
+    "name": "QM85C 85\" UHD Professional Display",
+    "price": 3800.0,
+    "features": "4K UHD; 500 nits brightness; Dynamic Crystal Color",
+    "tier": "Premium",
+    "use_case_tags": [
+      "boardroom",
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "samsung_magicinfo"
+    ]
+  },
+  {
+    "category": "Mounts & Racks",
+    "brand": "Custom",
+    "name": "Trolley Stand for 85\" Display",
+    "price": 750.0,
+    "features": "Heavy-duty mobile cart for large format displays",
+    "tier": "Premium",
+    "use_case_tags": [
+      "auditorium",
+      "flexible_space"
+    ],
+    "compatibility_tags": [
+      "vesa"
+    ]
+  },
+  {
+    "category": "Video Conferencing",
+    "brand": "Poly",
+    "name": "Studio X70 All-In-One Video Bar with TC10 Controller",
+    "price": 6999.0,
+    "features": "Dual 4K lenses; Two-way stereo speakers; AI-driven camera tracking",
+    "tier": "Premium",
+    "use_case_tags": [
+      "boardroom",
+      "large_room"
+    ],
+    "compatibility_tags": [
+      "poly_lens",
+      "teams",
+      "zoom"
+    ]
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Poly",
+    "name": "Studio Expansion Table Microphone",
+    "price": 349.0,
+    "features": "Adds 22 ft of voice pickup range to Rally Bar or X-series video bars",
+    "tier": "Standard",
+    "use_case_tags": [
+      "boardroom",
+      "large_room"
+    ],
+    "compatibility_tags": [
+      "poly_x_series"
+    ]
+  },
+  {
+    "category": "Cables & Connectivity",
+    "brand": "Poly",
+    "name": "10M Active Optical USB 3.1 Cable",
+    "price": 199.0,
+    "features": "Long-distance USB-A to USB-C cable for camera or peripheral connection",
+    "tier": "Premium",
+    "use_case_tags": [
+      "boardroom",
+      "large_room"
+    ],
+    "compatibility_tags": [
+      "usb_extender"
+    ]
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Samsung",
+    "name": "QM98T 98\" 4K UHD Display",
+    "price": 9500.0,
+    "features": "Massive 98-inch screen; 4K Resolution; Tizen OS",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "auditorium",
+      "boardroom",
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "samsung_magicinfo"
+    ]
+  },
+  {
+    "category": "Mounts & Racks",
+    "brand": "Chief",
+    "name": "XSM1U Fusion Fixed Wall Mount",
+    "price": 399.0,
+    "features": "Fits 55\" to 100\" displays; Post-installation leveling; Kickstand for cable access",
+    "tier": "Premium",
+    "use_case_tags": [
+      "boardroom",
+      "large_room"
+    ],
+    "compatibility_tags": [
+      "vesa"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Poly",
+    "name": "HP Mini Conference G9 PC with Zoom Rooms",
+    "price": 1650.0,
+    "features": "Pre-configured PC optimized for Zoom Rooms operation",
+    "tier": "Standard",
+    "use_case_tags": [
+      "boardroom",
+      "meeting_room"
+    ],
+    "compatibility_tags": [
+      "zoom_rooms"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Poly",
+    "name": "TC10 Black Touch Controller",
+    "price": 999.0,
+    "features": "10.1\" multi-touch display for room and meeting control; PoE",
+    "tier": "Premium",
+    "use_case_tags": [
+      "boardroom",
+      "meeting_room"
+    ],
+    "compatibility_tags": [
+      "poly_lens",
+      "teams",
+      "zoom"
+    ]
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Poly",
+    "name": "Studio E70 Smart Camera",
+    "price": 3499.0,
+    "features": "Dual lenses with 4K sensors; 7.3x digital zoom; Automatic presenter tracking",
+    "tier": "Premium",
+    "use_case_tags": [
+      "boardroom",
+      "large_room",
+      "video_capture"
+    ],
+    "compatibility_tags": [
+      "poly_lens"
+    ]
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Poly",
+    "name": "Studio E60 Smart Camera",
+    "price": 2999.0,
+    "features": "4K MPTZ camera; 12x Optical Zoom; For medium to large rooms",
+    "tier": "Premium",
+    "use_case_tags": [
+      "boardroom",
+      "large_room",
+      "video_capture"
+    ],
+    "compatibility_tags": [
+      "poly_lens"
+    ]
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Shure",
+    "name": "MXWAPT2 2-Channel Access Point Transceiver",
+    "price": 1499.0,
+    "features": "Manages wireless connections for up to 2 MXW microphones",
+    "tier": "Premium",
+    "use_case_tags": [
+      "auditorium",
+      "large_room",
+      "audio_capture"
+    ],
+    "compatibility_tags": [
+      "shure_mxw"
+    ]
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Shure",
+    "name": "MXWNCS2 2-Channel Networked Charging Station",
+    "price": 649.0,
+    "features": "Charges two MXW series wireless microphones",
+    "tier": "Premium",
+    "use_case_tags": [
+      "auditorium",
+      "large_room",
+      "audio_capture"
+    ],
+    "compatibility_tags": [
+      "shure_mxw"
+    ]
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Shure",
+    "name": "MXW2/SM58 Handheld Wireless Microphone",
+    "price": 799.0,
+    "features": "Wireless handheld transmitter with legendary SM58 capsule",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio_capture",
+      "auditorium",
+      "presentation"
+    ],
+    "compatibility_tags": [
+      "shure_mxw"
+    ]
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Shure",
+    "name": "MXW1/O Bodypack Transceiver",
+    "price": 699.0,
+    "features": "Hybrid bodypack with built-in omnidirectional microphone",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio_capture",
+      "auditorium",
+      "presentation"
+    ],
+    "compatibility_tags": [
+      "shure_mxw"
+    ]
+  },
+  {
+    "category": "Audio: DSP",
+    "brand": "QSC",
+    "name": "Q-SYS Core 110f Processor",
+    "price": 4500.0,
+    "features": "128x128 network audio channels; 24 analog I/O; AEC; Dante enabled",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "audio",
+      "auditorium",
+      "boardroom",
+      "large_room"
+    ],
+    "compatibility_tags": [
+      "dante",
+      "q_sys"
+    ]
+  },
+  {
+    "category": "Audio: Amplifiers",
+    "brand": "Extron",
+    "name": "XPA 2001 Power Amplifier",
+    "price": 950.0,
+    "features": "200W mono 70V/100V amplifier; Energy Star qualified",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "boardroom",
+      "meeting_room"
+    ],
+    "compatibility_tags": [
+      "70v"
+    ]
+  },
+  {
+    "category": "Networking",
+    "brand": "Cisco",
+    "name": "CBS350-24P-4G Managed PoE+ Switch",
+    "price": 699.0,
+    "features": "24-port Gigabit Ethernet switch with 195W PoE budget and 4 SFP uplinks",
+    "tier": "Premium",
+    "use_case_tags": [
+      "boardroom",
+      "large_room"
+    ],
+    "compatibility_tags": [
+      "poe+"
+    ]
+  },
+  {
+    "category": "AV over IP",
+    "brand": "Kramer",
+    "name": "TP-580TXR 4K HDMI Extender (Transmitter)",
+    "price": 350.0,
+    "features": "Extends 4K@60Hz (4:2:0) video signals up to 70m over CAT cable",
+    "tier": "Standard",
+    "use_case_tags": [
+      "boardroom",
+      "large_room"
+    ],
+    "compatibility_tags": [
+      "hdbaset"
+    ]
+  },
+  {
+    "category": "AV over IP",
+    "brand": "Kramer",
+    "name": "TP-580RXR 4K HDMI Extender (Receiver)",
+    "price": 350.0,
+    "features": "Receiver for TP-580TXR; PoE powered",
+    "tier": "Standard",
+    "use_case_tags": [
+      "boardroom",
+      "large_room"
+    ],
+    "compatibility_tags": [
+      "hdbaset"
+    ]
+  },
+  {
+    "category": "Video Equipment",
+    "brand": "Extron",
+    "name": "IN1804 4K/60 Seamless Switcher",
+    "price": 2990.0,
+    "features": "Four-input scaler with seamless switching; DTP2 extension",
+    "tier": "Premium",
+    "use_case_tags": [
+      "auditorium",
+      "boardroom"
+    ],
+    "compatibility_tags": [
+      "dtp"
+    ]
+  },
+  {
+    "category": "Room Scheduling",
+    "brand": "Cue",
+    "name": "touchONE-7-M Room Booking Panel",
+    "price": 850.0,
+    "features": "7\" on-wall reservation panel with PoE",
+    "tier": "Standard",
+    "use_case_tags": [
+      "boardroom",
+      "meeting_room"
+    ],
+    "compatibility_tags": [
+      "room_booking"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Neat",
+    "name": "Neat Board SE 65\" Collaboration Display",
+    "price": 5990.0,
+    "features": "65\" 4K interactive display with integrated camera, mic, speakers",
+    "tier": "Premium",
+    "use_case_tags": [
+      "boardroom",
+      "collaboration",
+      "meeting_room"
+    ],
+    "compatibility_tags": [
+      "neat_os",
+      "teams",
+      "zoom"
+    ]
+  },
+  {
+    "category": "Mounts & Racks",
+    "brand": "Neat",
+    "name": "Neat Board Wall Mount",
+    "price": 250.0,
+    "features": "Official wall mounting kit for the Neat Board",
+    "tier": "Standard",
+    "use_case_tags": [
+      "boardroom",
+      "meeting_room"
+    ],
+    "compatibility_tags": [
+      "neat_board"
+    ]
+  },
+  {
+    "category": "Mounts & Racks",
+    "brand": "Neat",
+    "name": "Neat Board Rolling Floor Stand",
+    "price": 1200.0,
+    "features": "Mobile floor stand with casters for Neat Board",
+    "tier": "Premium",
+    "use_case_tags": [
+      "classroom",
+      "flexible_space"
+    ],
+    "compatibility_tags": [
+      "neat_board"
+    ]
+  },
+  {
+    "category": "Video Conferencing",
+    "brand": "DTEN",
+    "name": "D-AIO 55\" Interactive Display",
+    "price": 2999.0,
+    "features": "55\" All-in-one Zoom Rooms appliance with 4K camera and 16-mic array",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration",
+      "huddle_room",
+      "small_room"
+    ],
+    "compatibility_tags": [
+      "dten_os",
+      "zoom"
+    ]
+  },
+  {
+    "category": "Mounts & Racks",
+    "brand": "Chief",
+    "name": "MTM1U Medium FUSION Tilt Mount",
+    "price": 199.0,
+    "features": "Tilting wall mount for medium flat panel displays",
+    "tier": "Standard",
+    "use_case_tags": [
+      "huddle_room",
+      "meeting_room"
+    ],
+    "compatibility_tags": [
+      "vesa"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Logitech",
+    "name": "TAP IP Controller",
+    "price": 699.0,
+    "features": "Network-connected touch controller for meeting rooms (Teams, Zoom, etc.)",
+    "tier": "Standard",
+    "use_case_tags": [
+      "boardroom",
+      "huddle_room",
+      "meeting_room"
+    ],
+    "compatibility_tags": [
+      "logitech_sync",
+      "teams",
+      "zoom"
+    ]
+  },
+  {
+    "category": "Room Scheduling",
+    "brand": "Logitech",
+    "name": "Tap Scheduler",
+    "price": 699.0,
+    "features": "10.1\" scheduling panel for meeting rooms; Mounts outside the room",
+    "tier": "Standard",
+    "use_case_tags": [
+      "boardroom",
+      "meeting_room"
+    ],
+    "compatibility_tags": [
+      "logitech_sync",
+      "room_booking"
+    ]
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "LG",
+    "name": "65UH5N-E 65\" UHD Signage Display",
+    "price": 1799.0,
+    "features": "4K UHD; 500 nits brightness; webOS Signage platform",
+    "tier": "Premium",
+    "use_case_tags": [
+      "lobby",
+      "medium_room",
+      "signage",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "lg_supersign"
+    ]
+  },
+  {
+    "category": "Digital Signage",
+    "brand": "BrightSign",
+    "name": "XT1144 Expanded I/O Player",
+    "price": 650.0,
+    "features": "4K HDR media player with GPIO, serial, and dual USB ports",
+    "tier": "Premium",
+    "use_case_tags": [
+      "interactive",
+      "signage"
+    ],
+    "compatibility_tags": [
+      "brightsign"
+    ]
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "LG",
+    "name": "55UH5N-E 55\" UHD Signage Display",
+    "price": 1299.0,
+    "features": "4K UHD; 500 nits brightness; webOS Signage platform",
+    "tier": "Premium",
+    "use_case_tags": [
+      "lobby",
+      "medium_room",
+      "signage",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "lg_supersign"
+    ]
+  },
+  {
+    "category": "Video Conferencing",
+    "brand": "Logitech",
+    "name": "Rally Bar Huddle",
+    "price": 1799.0,
+    "features": "All-in-one video bar for huddle and small rooms; 4K AI camera",
+    "tier": "Economy",
+    "use_case_tags": [
+      "huddle_room",
+      "small_room"
+    ],
+    "compatibility_tags": [
+      "logitech_sync",
+      "teams",
+      "zoom"
+    ]
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "LG",
+    "name": "75UH5J-H 75\" UHD Signage Display",
+    "price": 2499.0,
+    "features": "4K UHD; 500 nits brightness; 24/7 operation; webOS",
+    "tier": "Premium",
+    "use_case_tags": [
+      "boardroom",
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "lg_supersign"
+    ]
+  },
+  {
+    "category": "Video Conferencing",
+    "brand": "Logitech",
+    "name": "Rally Plus System",
+    "price": 5499.0,
+    "features": "Modular 4K video conferencing system for large rooms; includes 2 speakers and 2 mic pods",
+    "tier": "Premium",
+    "use_case_tags": [
+      "boardroom",
+      "large_room"
+    ],
+    "compatibility_tags": [
+      "logitech_sync",
+      "teams",
+      "zoom"
+    ]
+  },
+  {
+    "category": "Video Conferencing",
+    "brand": "Yealink",
+    "name": "A30 MeetingBar Teams Edition",
+    "price": 2799.0,
+    "features": "All-in-one video bar with CTP18 touch console; Certified for Microsoft Teams",
+    "tier": "Standard",
+    "use_case_tags": [
+      "meeting_room"
+    ],
+    "compatibility_tags": [
+      "teams",
+      "yealink_mgr"
+    ]
+  },
+  {
+    "category": "Wireless Presentation",
+    "brand": "Yealink",
+    "name": "WPP30 Wireless Presentation Pod",
+    "price": 399.0,
+    "features": "Plug-and-play 4K wireless content sharing dongle",
+    "tier": "Standard",
+    "use_case_tags": [
+      "boardroom",
+      "meeting_room"
+    ],
+    "compatibility_tags": [
+      "yealink_byod"
+    ]
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Yealink",
+    "name": "VCM36-W Wireless Microphone",
+    "price": 299.0,
+    "features": "Wi-Fi based wireless expansion microphone with 360-degree voice pickup",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio_capture",
+      "boardroom"
+    ],
+    "compatibility_tags": [
+      "yealink_expansion"
+    ]
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "ViewSonic",
+    "name": "LS610HDHE 4000 Lumen Projector",
+    "price": 1299.0,
+    "features": "1080p Short Throw LED Projector; 4,000 ANSI Lumens",
+    "tier": "Standard",
+    "use_case_tags": [
+      "classroom",
+      "meeting_room",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "short_throw"
+    ]
+  },
+  {
+    "category": "Projection Screens",
+    "brand": "Milan",
+    "name": "123\" Motorized Screen",
+    "price": 850.0,
+    "features": "123-inch diagonal motorized tab-tensioned projection screen",
+    "tier": "Standard",
+    "use_case_tags": [
+      "auditorium",
+      "boardroom"
+    ],
+    "compatibility_tags": [
+      "motorized_screen"
+    ]
+  },
+  {
+    "category": "Audio: Amplifiers",
+    "brand": "Helvia",
+    "name": "HDMA-240D Amplifier",
+    "price": 500.0,
+    "features": "240W Mixer Amplifier with Dante and multiple inputs",
+    "tier": "Economy",
+    "use_case_tags": [
+      "audio",
+      "classroom",
+      "small_auditorium"
+    ],
+    "compatibility_tags": [
+      "dante"
+    ]
+  },
+  {
+    "category": "Wireless Presentation",
+    "brand": "Barco",
+    "name": "CX-50 Gen 2 ClickShare",
+    "price": 4950.0,
+    "features": "Dual-screen wireless conferencing and presentation system for large rooms",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "boardroom",
+      "large_room"
+    ],
+    "compatibility_tags": [
+      "barco_clickshare"
+    ]
+  },
+  {
+    "category": "Cables & Connectivity",
+    "brand": "Extron",
+    "name": "Cable Cubby 202",
+    "price": 350.0,
+    "features": "Furniture-mountable enclosure for AV, data, and power connections",
+    "tier": "Standard",
+    "use_case_tags": [
+      "boardroom",
+      "meeting_room"
+    ],
+    "compatibility_tags": [
+      "cable_management"
+    ]
+  },
+  {
+    "category": "Video Conferencing",
+    "brand": "Lenovo",
+    "name": "ThinkSmart Core + Controller Kit",
+    "price": 2199.0,
+    "features": "Pre-configured compute device and 10.1\" touch controller for meeting rooms",
+    "tier": "Standard",
+    "use_case_tags": [
+      "boardroom",
+      "meeting_room"
+    ],
+    "compatibility_tags": [
+      "lenovo_thinksmart",
+      "teams",
+      "zoom"
+    ]
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Crestron",
+    "name": "1 Beyond i12 PTZ Camera",
+    "price": 2800.0,
+    "features": "12x optical zoom PTZ camera with intelligent auto-tracking",
+    "tier": "Premium",
+    "use_case_tags": [
+      "auditorium",
+      "large_room",
+      "video_capture"
+    ],
+    "compatibility_tags": [
+      "crestron_control"
+    ]
+  },
+  {
+    "category": "Audio: DSP",
+    "brand": "Extron",
+    "name": "DMP 64 Plus C AT Processor",
+    "price": 1590.0,
+    "features": "6x4 audio mixer with AEC and Dante connectivity",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "boardroom",
+      "meeting_room"
+    ],
+    "compatibility_tags": [
+      "aec",
+      "dante"
+    ]
+  },
+  {
+    "category": "Wireless Presentation",
+    "brand": "Extron",
+    "name": "ShareLink Pro 1100",
+    "price": 1890.0,
+    "features": "Wireless and wired presentation gateway; supports 4K content",
+    "tier": "Premium",
+    "use_case_tags": [
+      "boardroom",
+      "meeting_room"
+    ],
+    "compatibility_tags": [
+      "byod"
+    ]
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Samsung",
+    "name": "VH55R-R 55\" Video Wall Display",
+    "price": 2850.0,
+    "features": "700 nits brightness; Extremely narrow 0.44mm even bezel for seamless video walls",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "lobby",
+      "video_wall",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "samsung_magicinfo"
+    ]
+  },
+  {
+    "category": "Audio: Amplifiers",
+    "brand": "Crown",
+    "name": "DCi 4|600N Power Amplifier",
+    "price": 2900.0,
+    "features": "4-channel, 600W power amplifier with BLU link and Dante",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "audio",
+      "auditorium",
+      "large_venue"
+    ],
+    "compatibility_tags": [
+      "dante"
+    ]
+  },
+  {
+    "category": "Video Conferencing",
+    "brand": "Poly",
+    "name": "G7500 4K Codec",
+    "price": 4500.0,
+    "features": "Modular 4K video conferencing codec for integrating custom cameras and audio",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "boardroom",
+      "custom_room"
+    ],
+    "compatibility_tags": [
+      "poly_lens"
+    ]
+  },
+  {
+    "category": "Control Systems & Processing",
+    "brand": "Crestron",
+    "name": "CP4N 4-Series Control Processor",
+    "price": 3800.0,
+    "features": "4-Series control engine; Supports Crestron HTML5 UI; BACnet/IP support",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "auditorium",
+      "boardroom"
+    ],
+    "compatibility_tags": [
+      "crestron_control"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Logitech",
+    "name": "Rally Bar",
+    "price": 3999.0,
+    "features": "All-in-one 4K video bar; AI Viewfinder with auto-framing; Integrated speakers and microphones; USB and Appliance mode",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration",
+      "medium_room"
+    ],
+    "compatibility_tags": [
+      "logitech_sync",
+      "teams",
+      "zoom"
+    ]
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Samsung",
+    "name": "85\" Professional Display for the content and far-end video.",
+    "price": 3800.0,
+    "features": "Samsung QM85C",
+    "tier": "Premium",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "samsung_magicinfo"
+    ]
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Arthur Holms",
+    "name": "Pop-up monitors at the end of the table.",
+    "price": 1200.0,
+    "features": "Arthur Holms",
+    "tier": "Premium",
+    "use_case_tags": [
+      "boardroom",
+      "interactive"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Video Conferencing",
+    "brand": "Poly",
+    "name": "Poly G7500 VIDEO CONFERENCING SYSTEM with E70 Camera.",
+    "price": 8999.0,
+    "features": "Poly G7500 with E70 Camera",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "boardroom",
+      "collaboration",
+      "large_room"
+    ],
+    "compatibility_tags": [
+      "poly_lens"
+    ]
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Generic",
+    "name": "Table Microphone with mute/unmute button.",
+    "price": 150.0,
+    "features": "Generic Tabletop Mic",
+    "tier": "Economy",
+    "use_case_tags": [
+      "audio_capture",
+      "meeting_room"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Samsung",
+    "name": "75\" Professional Display for the content and far-end video.",
+    "price": 2400.0,
+    "features": "Samsung QM75C",
+    "tier": "Premium",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "samsung_magicinfo"
+    ]
+  },
+  {
+    "category": "Video Conferencing",
+    "brand": "Poly",
+    "name": "Poly X70 All-in-one video bar with native Zoom Support Camera, Speaker, and Microphone.",
+    "price": 4500.0,
+    "features": "Poly X70",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration",
+      "large_room"
+    ],
+    "compatibility_tags": [
+      "poly_lens",
+      "zoom"
+    ]
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Generic",
+    "name": "Ceiling Tile Microphones",
+    "price": 800.0,
+    "features": "Powder coated to blend with the decor.",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio_capture",
+      "meeting_room"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Samsung",
+    "name": "55\" Professional Display.",
+    "price": 1100.0,
+    "features": "Samsung QM55C",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "samsung_magicinfo"
+    ]
+  },
+  {
+    "category": "Video Conferencing",
+    "brand": "Poly",
+    "name": "Poly X30 All-in-one video bar with native Zoom Support.",
+    "price": 1800.0,
+    "features": "Poly X30",
+    "tier": "Economy",
+    "use_case_tags": [
+      "collaboration",
+      "huddle_room"
+    ],
+    "compatibility_tags": [
+      "poly_lens",
+      "zoom"
+    ]
+  },
+  {
+    "category": "Video Conferencing",
+    "brand": "Poly",
+    "name": "Poly P15 All-in-one video bar.",
+    "price": 599.0,
+    "features": "Used if the Partner wants to join the meeting from his Desk.",
+    "tier": "Economy",
+    "use_case_tags": [
+      "personal",
+      "huddle_room"
+    ],
+    "compatibility_tags": [
+      "poly_lens"
+    ]
+  },
+  {
+    "category": "Video Conferencing",
+    "brand": "Cisco",
+    "name": "Cisco IP Phone.",
+    "price": 350.0,
+    "features": "Client's Supply.",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "personal"
+    ],
+    "compatibility_tags": [
+      "cisco",
+      "webex"
+    ]
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Generic",
+    "name": "Large format 2x2 LED thin Bezel Videowall.",
+    "price": 12000.0,
+    "features": "Option 1",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "lobby",
+      "video_wall",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Projection Screens",
+    "brand": "Generic",
+    "name": "Projection Tab-Tensioned Screen with Short throw LED Projector.",
+    "price": 3500.0,
+    "features": "Option 2.",
+    "tier": "Standard",
+    "use_case_tags": [
+      "boardroom",
+      "classroom"
+    ],
+    "compatibility_tags": [
+      "short_throw"
+    ]
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Generic",
+    "name": "Confidence Monitor for Townhall Presenter.",
+    "price": 850.0,
+    "features": "Confidence Monitor",
+    "tier": "Standard",
+    "use_case_tags": [
+      "auditorium",
+      "presentation",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Speakers",
+    "brand": "JBL",
+    "name": "JBL C64P/T Pendant Speaker",
+    "price": 150.0,
+    "features": "Distributed Speakers for Uniform Sound Coverage.",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "auditorium",
+      "large_room"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Cables & Connectivity",
+    "brand": "Crestron",
+    "name": "CRESTRON USB & HDMI Wall Plate Connectivity.",
+    "price": 250.0,
+    "features": "Crestron",
+    "tier": "Premium",
+    "use_case_tags": [
+      "boardroom",
+      "meeting_room"
+    ],
+    "compatibility_tags": [
+      "crestron_control",
+      "hdmi",
+      "usb"
+    ]
+  },
+  {
+    "category": "Audio: Speakers",
+    "brand": "JBL",
+    "name": "Pendant Speakers.",
+    "price": 150.0,
+    "features": "Two speakers on the side of the wall.",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "signage"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Oblong",
+    "name": "Oblong Mezzanine 650 solution kit.",
+    "price": 25000.0,
+    "features": "Oblong Mezzanine 650",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "boardroom",
+      "collaboration",
+      "large_room"
+    ],
+    "compatibility_tags": [
+      "oblong"
+    ]
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Generic",
+    "name": "Large Direct LED Screen.",
+    "price": 35000.0,
+    "features": "7m width, 1.35m height, 1.2mm pixel pitch (23x4 tile).",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "auditorium",
+      "video_wall",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Generic",
+    "name": "65\" display.",
+    "price": 1600.0,
+    "features": "At the back side.",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Video Conferencing",
+    "brand": "Cisco",
+    "name": "VC unit.",
+    "price": 8000.0,
+    "features": "Cisco WebEx codec Pro.",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "collaboration",
+      "custom_room"
+    ],
+    "compatibility_tags": [
+      "cisco",
+      "webex"
+    ]
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Oblong",
+    "name": "Camera.",
+    "price": 1200.0,
+    "features": "Oblong dedicated IP camera mounted on the ceiling.",
+    "tier": "Premium",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": [
+      "oblong"
+    ]
+  },
+  {
+    "category": "Control, Matrix & Extenders",
+    "brand": "Generic",
+    "name": "32x32 matrix switcher.",
+    "price": 15000.0,
+    "features": "To achieve redundancy and flexibly of having more inputs.",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "auditorium",
+      "custom_room"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Generic",
+    "name": "86\" LED Displays.",
+    "price": 4200.0,
+    "features": "With HDMI connectivity for Presentation.",
+    "tier": "Premium",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Video Conferencing",
+    "brand": "Cisco",
+    "name": "Cisco WebEx codec pro.",
+    "price": 8000.0,
+    "features": "For video conferencing.",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "collaboration",
+      "custom_room"
+    ],
+    "compatibility_tags": [
+      "cisco",
+      "webex"
+    ]
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Generic",
+    "name": "PTZ Cameras.",
+    "price": 1500.0,
+    "features": "To capture Presenter and Audience.",
+    "tier": "Standard",
+    "use_case_tags": [
+      "auditorium",
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Video Conferencing",
+    "brand": "Cisco",
+    "name": "70\" Cisco WebEx board Display.",
+    "price": 9500.0,
+    "features": "With HDMI connectivity on the table.",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "boardroom",
+      "collaboration",
+      "interactive",
+      "large_room"
+    ],
+    "compatibility_tags": [
+      "cisco",
+      "webex"
+    ]
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Generic",
+    "name": "LED display.",
+    "price": 600.0,
+    "features": "With on table HDMI connectivity.",
+    "tier": "Economy",
+    "use_case_tags": [
+      "huddle_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Generic",
+    "name": "Video Recording Camera.",
+    "price": 800.0,
+    "features": "Placed on Ceiling.",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Generic",
+    "name": "Lapel Microphone.",
+    "price": 120.0,
+    "features": "For user, so that person can come and record a video on just a one clicks of a button or remote.",
+    "tier": "Economy",
+    "use_case_tags": [
+      "audio_capture",
+      "presentation"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "LG",
+    "name": "Samsung XU9077 Displays",
+    "price": 1395.49,
+    "features": "Generated Model",
+    "tier": "Standard",
+    "use_case_tags": [
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "LG",
+    "name": "Samsung BI2405 Displays",
+    "price": 12840.78,
+    "features": "Generated Model",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Sony",
+    "name": "LG JB4775 Displays",
+    "price": 8534.33,
+    "features": "Generated Model",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Sony",
+    "name": "LG XG2248 Displays",
+    "price": 5206.82,
+    "features": "Generated Model",
+    "tier": "Premium",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Panasonic",
+    "name": "Sony JR8648 Displays",
+    "price": 13123.72,
+    "features": "Generated Model",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Panasonic",
+    "name": "Sony KE3192 Displays",
+    "price": 8142.48,
+    "features": "Generated Model",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Sharp/NEC",
+    "name": "Panasonic UK4740 Displays",
+    "price": 2892.4,
+    "features": "Generated Model",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Sharp/NEC",
+    "name": "Panasonic RS3255 Displays",
+    "price": 4836.67,
+    "features": "Generated Model",
+    "tier": "Premium",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Logitech",
+    "name": "Panasonic OU3930 Displays",
+    "price": 1344.88,
+    "features": "Generated Model",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration",
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "logitech_sync"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Logitech",
+    "name": "Sharp/NEC MO5304 Displays",
+    "price": 2978.21,
+    "features": "Generated Model",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration",
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "logitech_sync"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Poly (HP)",
+    "name": "Sharp/NEC ID3564 Displays",
+    "price": 9683.49,
+    "features": "Generated Model",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration",
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "poly_lens"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Poly (HP)",
+    "name": "Sharp/NEC JL6902 Displays",
+    "price": 12903.69,
+    "features": "Generated Model",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration",
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "poly_lens"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Cisco",
+    "name": "Sharp/NEC ZA8887 Displays",
+    "price": 9352.14,
+    "features": "Generated Model",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "collaboration",
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "webex"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Cisco",
+    "name": "Logitech YV5527 UC",
+    "price": 921.49,
+    "features": "Generated Model",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "webex"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Jabra",
+    "name": "Logitech AL8076 UC",
+    "price": 1461.25,
+    "features": "Generated Model",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "logitech_sync"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Jabra",
+    "name": "Poly (HP) BA1800 UC",
+    "price": 1804.83,
+    "features": "Generated Model",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "poly_lens"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Yealink",
+    "name": "Poly (HP) TE5799 UC",
+    "price": 1227.11,
+    "features": "Generated Model",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "poly_lens"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Yealink",
+    "name": "Poly (HP) FE4153 UC",
+    "price": 1248.64,
+    "features": "Generated Model",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "poly_lens"
+    ]
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Sony (PTZ)",
+    "name": "Poly (HP) VZ7586 UC",
+    "price": 1224.23,
+    "features": "Generated Model",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration",
+      "video_capture"
+    ],
+    "compatibility_tags": [
+      "poly_lens"
+    ]
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Sony (PTZ)",
+    "name": "Cisco FQ8499 UC",
+    "price": 1650.62,
+    "features": "Generated Model",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "collaboration",
+      "video_capture"
+    ],
+    "compatibility_tags": [
+      "webex"
+    ]
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Panasonic (PTZ)",
+    "name": "Cisco FZ3426 UC",
+    "price": 1931.57,
+    "features": "Generated Model",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "collaboration",
+      "video_capture"
+    ],
+    "compatibility_tags": [
+      "webex"
+    ]
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Panasonic (PTZ)",
+    "name": "Jabra YZ347 UC",
+    "price": 2477.53,
+    "features": "Generated Model",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration",
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Canon (PTZ)",
+    "name": "Jabra BW5781 UC",
+    "price": 1503.73,
+    "features": "Generated Model",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration",
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Canon (PTZ)",
+    "name": "Jabra HO5800 UC",
+    "price": 987.89,
+    "features": "Generated Model",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration",
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "BirdDog (NDI)",
+    "name": "Yealink QL8491 UC",
+    "price": 1980.24,
+    "features": "Generated Model",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration",
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "BirdDog (NDI)",
+    "name": "Yealink MW5745 UC",
+    "price": 2241.04,
+    "features": "Generated Model",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration",
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Lumens",
+    "name": "Sony (PTZ) ZC2836 PTZ",
+    "price": 4474.34,
+    "features": "Generated Model",
+    "tier": "Premium",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Lumens",
+    "name": "Sony (PTZ) AO3868 PTZ",
+    "price": 2204.09,
+    "features": "Generated Model",
+    "tier": "Premium",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Shure (MXA/Stem)",
+    "name": "Sony (PTZ) GE8838 PTZ",
+    "price": 4951.69,
+    "features": "Generated Model",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture",
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Shure (MXA/Stem)",
+    "name": "Panasonic (PTZ) YC5921 PTZ",
+    "price": 5881.18,
+    "features": "Generated Model",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture",
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Biamp (Parlé/Tesira)",
+    "name": "Panasonic (PTZ) XZ3667 PTZ",
+    "price": 4111.45,
+    "features": "Generated Model",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture",
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Biamp (Parlé/Tesira)",
+    "name": "Canon (PTZ) MW9268 PTZ",
+    "price": 5169.17,
+    "features": "Generated Model",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture",
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Sennheiser (TCC2)",
+    "name": "Canon (PTZ) VU8869 PTZ",
+    "price": 3391.86,
+    "features": "Generated Model",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture",
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Sennheiser (TCC2)",
+    "name": "BirdDog (NDI) CN3307 PTZ",
+    "price": 5707.95,
+    "features": "Generated Model",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture",
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "QSC (NM-T1)",
+    "name": "BirdDog (NDI) PO3725 PTZ",
+    "price": 4557.53,
+    "features": "Generated Model",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "audio",
+      "audio_capture",
+      "video_capture"
+    ],
+    "compatibility_tags": [
+      "q_sys"
+    ]
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "QSC (NM-T1)",
+    "name": "Lumens XG1997 PTZ",
+    "price": 4628.71,
+    "features": "Generated Model",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "audio",
+      "audio_capture",
+      "video_capture"
+    ],
+    "compatibility_tags": [
+      "q_sys"
+    ]
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Audio-Technica",
+    "name": "Lumens VB2192 PTZ",
+    "price": 4355.26,
+    "features": "Generated Model",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture",
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Audio-Technica)",
+    "name": "Shure (MXA/Stem) PO7570 Audio: Microphones",
+    "price": 2930.5,
+    "features": "Generated Model",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Speakers",
+    "brand": "QSC",
+    "name": "Shure (MXA/Stem) VQ7358 Audio: Microphones",
+    "price": 2127.32,
+    "features": "Generated Model",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": [
+      "q_sys"
+    ]
+  },
+  {
+    "category": "Audio: Speakers",
+    "brand": "QSC",
+    "name": "Biamp (Parlé/Tesira) VX4954 Audio: Microphones",
+    "price": 1663.0,
+    "features": "Generated Model",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": [
+      "q_sys"
+    ]
+  },
+  {
+    "category": "Audio: Speakers",
+    "brand": "Biamp (Desono)",
+    "name": "Biamp (Parlé/Tesira) WN4896 Audio: Microphones",
+    "price": 2641.83,
+    "features": "Generated Model",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Speakers",
+    "brand": "Biamp (Desono)",
+    "name": "Sennheiser (TCC2) DY2384 Audio: Microphones",
+    "price": 1095.1,
+    "features": "Generated Model",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Speakers",
+    "brand": "JBL",
+    "name": "Sennheiser (TCC2) UD632 Audio: Microphones",
+    "price": 580.13,
+    "features": "Generated Model",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Speakers",
+    "brand": "JBL",
+    "name": "QSC (NM-T1) KP5152 Audio: Microphones",
+    "price": 281.27,
+    "features": "Generated Model",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": [
+      "q_sys"
+    ]
+  },
+  {
+    "category": "Audio: Speakers",
+    "brand": "Bose",
+    "name": "QSC (NM-T1) ND9386 Audio: Microphones",
+    "price": 3069.7,
+    "features": "Generated Model",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": [
+      "q_sys"
+    ]
+  },
+  {
+    "category": "Audio: Speakers",
+    "brand": "Bose",
+    "name": "QSC (NM-T1) SO819 Audio: Microphones",
+    "price": 1641.84,
+    "features": "Generated Model",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": [
+      "q_sys"
+    ]
+  },
+  {
+    "category": "Audio: Speakers",
+    "brand": "Extron",
+    "name": "Audio-Technica CD3401 Audio: Microphones",
+    "price": 574.36,
+    "features": "Generated Model",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Speakers",
+    "brand": "Extron",
+    "name": "Audio-Technica CH2804 Audio: Microphones",
+    "price": 3058.63,
+    "features": "Generated Model",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "SAMSUNG",
+    "name": "50\" UHD Display",
+    "price": 2855.93,
+    "features": "SAMSUNG QM50C",
+    "tier": "Standard",
+    "use_case_tags": [
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "samsung_magicinfo"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Chief",
+    "name": "Fixed Wall Mount",
+    "price": 2513.71,
+    "features": "Chief LSM1U",
+    "tier": "Standard",
+    "use_case_tags": [],
+    "compatibility_tags": [
+      "vesa"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Poly",
+    "name": "X30 All-In-One Video Bar with TC8 Controller Kit",
+    "price": 2970.61,
+    "features": "Poly 83Z46AA",
+    "tier": "Economy",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "poly_lens",
+      "teams",
+      "zoom"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "SAMSUNG",
+    "name": "65\" UHD Display",
+    "price": 3321.35,
+    "features": "SAMSUNG QM65C",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "samsung_magicinfo"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Poly",
+    "name": "X52 All-In-One Video Bar with TC10 Controller Kit",
+    "price": 4850.31,
+    "features": "Poly 8D8L1AA",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "poly_lens",
+      "teams",
+      "zoom"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "SAMSUNG",
+    "name": "55\" UHD Display",
+    "price": 4785.86,
+    "features": "SAMSUNG QM55C",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "signage",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "samsung_magicinfo"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "SAMSUNG",
+    "name": "85\" UHD Display",
+    "price": 1674.31,
+    "features": "SAMSUNG QM85C",
+    "tier": "Premium",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "samsung_magicinfo"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Poly",
+    "name": "Poly Studio X70 All-In-One Video Bar with TC10 Controller Kit INDIA",
+    "price": 4833.58,
+    "features": "Poly 8L531AA",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "poly_lens",
+      "teams",
+      "zoom"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Poly",
+    "name": "Poly Studio X50/X52/X70/USB Table Microphone",
+    "price": 2790.39,
+    "features": "Poly 875M6AA",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio_capture"
+    ],
+    "compatibility_tags": [
+      "poly_x_series"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Samsung",
+    "name": "4K Display",
+    "price": 2494.39,
+    "features": "Samsung QM98T",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "samsung_magicinfo"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Chief",
+    "name": "Standard Wall Mount",
+    "price": 4469.75,
+    "features": "Chief XSM1U",
+    "tier": "Premium",
+    "use_case_tags": [],
+    "compatibility_tags": [
+      "vesa"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Poly",
+    "name": "HP Mini Conference G9 PC with Zoom Rooms",
+    "price": 4358.82,
+    "features": "Poly 9C422AW",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "zoom_rooms"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Poly",
+    "name": "Poly TC10 Black Touch Controller",
+    "price": 3506.49,
+    "features": "Poly 875K5AA",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "poly_lens",
+      "teams",
+      "zoom"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Poly",
+    "name": "Poly Studio E70 Smart Camera",
+    "price": 1340.57,
+    "features": "Poly 875K6AA",
+    "tier": "Premium",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": [
+      "poly_lens"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "SHURE",
+    "name": "Access point for microphone",
+    "price": 4911.21,
+    "features": "SHURE MXWAPT2=-Z11",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio_capture"
+    ],
+    "compatibility_tags": [
+      "shure_mxw"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "SHURE",
+    "name": "Charging Station",
+    "price": 4918.42,
+    "features": "SHURE MXWNCS2-IN",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio_capture"
+    ],
+    "compatibility_tags": [
+      "shure_mxw"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "SHURE",
+    "name": "Handheld Mic",
+    "price": 4128.46,
+    "features": "SHURE MXW2/SM58--211",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio_capture"
+    ],
+    "compatibility_tags": [
+      "shure_mxw"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Shure",
+    "name": "Lapel Mic",
+    "price": 1658.07,
+    "features": "Shure MXW1/0=-211",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio_capture"
+    ],
+    "compatibility_tags": [
+      "shure_mxw"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Shure",
+    "name": "Lavalier Mic",
+    "price": 1186.72,
+    "features": "Shure UL4B/C-MTQG-A",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Q-SYS",
+    "name": "DSP/Controller",
+    "price": 4287.48,
+    "features": "Q-SYS CORE110F",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": [
+      "dante",
+      "q_sys"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Q-SYS",
+    "name": "Licence",
+    "price": 2776.43,
+    "features": "Q-SYS SLQSE-110-P",
+    "tier": "Enterprise",
+    "use_case_tags": [],
+    "compatibility_tags": [
+      "q_sys"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Cisco",
+    "name": "POE+ Network Switch.",
+    "price": 4899.28,
+    "features": "Cisco CBS350-24P-4G",
+    "tier": "Premium",
+    "use_case_tags": [],
+    "compatibility_tags": [
+      "poe+"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Kramer",
+    "name": "Transmitter",
+    "price": 3368.12,
+    "features": "Kramer TP-580TXR",
+    "tier": "Standard",
+    "use_case_tags": [],
+    "compatibility_tags": [
+      "hdbaset"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Kramer",
+    "name": "Receiver",
+    "price": 2690.62,
+    "features": "Kramer TP-580RXR",
+    "tier": "Standard",
+    "use_case_tags": [],
+    "compatibility_tags": [
+      "hdbaset"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Extron",
+    "name": "HDMI Scaler",
+    "price": 2811.45,
+    "features": "Extron IN1804",
+    "tier": "Premium",
+    "use_case_tags": [],
+    "compatibility_tags": [
+      "dtp"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Cue",
+    "name": "Room Scheduler",
+    "price": 4813.13,
+    "features": "Cue touchONE-7-M",
+    "tier": "Standard",
+    "use_case_tags": [],
+    "compatibility_tags": [
+      "room_booking"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "NEAT",
+    "name": "Tocch Control",
+    "price": 3039.99,
+    "features": "NEATPAD-SE",
+    "tier": "Premium",
+    "use_case_tags": [],
+    "compatibility_tags": [
+      "neat_os"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "NEAT",
+    "name": "65 Collaborative Screen",
+    "price": 1271.79,
+    "features": "NEATBOARDSE-",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration",
+      "interactive",
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "neat_os"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Neat",
+    "name": "Wall Mount option for Screen",
+    "price": 2271.29,
+    "features": "NEATBOARDWM",
+    "tier": "Standard",
+    "use_case_tags": [],
+    "compatibility_tags": [
+      "neat_board"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Neat",
+    "name": "Option2 - For Mounting the above Screen",
+    "price": 4028.18,
+    "features": "NEATBOARD-FLOORSTAND",
+    "tier": "Premium",
+    "use_case_tags": [],
+    "compatibility_tags": [
+      "neat_board"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "DTEN",
+    "name": "DTEN AIO Display",
+    "price": 4752.41,
+    "features": "DTEN AIO Interactive 55\" Display",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration",
+      "interactive",
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "dten_os",
+      "zoom"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Chief",
+    "name": "Mounting",
+    "price": 1956.12,
+    "features": "Chief MTM1U",
+    "tier": "Standard",
+    "use_case_tags": [],
+    "compatibility_tags": [
+      "vesa"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Logitech",
+    "name": "Logitech TAP IP Controller",
+    "price": 3062.06,
+    "features": "Logitech TAP IP Controller",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "logitech_sync",
+      "teams",
+      "zoom"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Logitech",
+    "name": "Logitech Tap Scheduler",
+    "price": 2226.79,
+    "features": "Logitech Tap Scheduler",
+    "tier": "Standard",
+    "use_case_tags": [],
+    "compatibility_tags": [
+      "logitech_sync",
+      "room_booking"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "LG",
+    "name": "LG 65UH5N Displays",
+    "price": 4230.9,
+    "features": "LG 65UH5N",
+    "tier": "Premium",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "lg_supersign"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "BRIGHTSIGN",
+    "name": "BRIGHTSIGN XT-1145 Media Players",
+    "price": 1182.85,
+    "features": "BRIGHTSIGN XT-1145",
+    "tier": "Premium",
+    "use_case_tags": [],
+    "compatibility_tags": [
+      "brightsign"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "LG",
+    "name": "LG 55UH5N Display",
+    "price": 2576.47,
+    "features": "LG 55UH5N",
+    "tier": "Premium",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "lg_supersign"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Logitech",
+    "name": "Logitech Rally Bar Huddle",
+    "price": 2804.83,
+    "features": "Logitech Rally Bar Huddle",
+    "tier": "Economy",
+    "use_case_tags": [
+      "collaboration",
+      "huddle_room"
+    ],
+    "compatibility_tags": [
+      "logitech_sync",
+      "teams",
+      "zoom"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "LG",
+    "name": "Dual LG 75UH5J Displays",
+    "price": 3613.91,
+    "features": "LG 75UH5J",
+    "tier": "Premium",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "lg_supersign"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Logitech",
+    "name": "Logitech Rally Plus System",
+    "price": 4401.76,
+    "features": "Logitech Rally Plus",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration",
+      "large_room"
+    ],
+    "compatibility_tags": [
+      "logitech_sync",
+      "teams",
+      "zoom"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Q-SYS",
+    "name": "Q-SYS Audio System",
+    "price": 3094.75,
+    "features": "Q-SYS Core 110F DSP",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": [
+      "dante",
+      "q_sys"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "LG",
+    "name": "LG 110\" Display",
+    "price": 3077.77,
+    "features": "LG 110\" Display",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "QSC",
+    "name": "QSC Encoders/Decoders",
+    "price": 432.88,
+    "features": "QSC",
+    "tier": "Enterprise",
+    "use_case_tags": [],
+    "compatibility_tags": [
+      "q_sys"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "BrightSign",
+    "name": "BrightSign Player",
+    "price": 3613.56,
+    "features": "BrightSign",
+    "tier": "Premium",
+    "use_case_tags": [],
+    "compatibility_tags": [
+      "brightsign"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "QSC",
+    "name": "QSC Cameras",
+    "price": 1087.67,
+    "features": "QSC",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": [
+      "q_sys"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Shure",
+    "name": "Shure Mics",
+    "price": 3592.51,
+    "features": "Shure",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Logitech",
+    "name": "Logitech TAP controller",
+    "price": 4938.87,
+    "features": "Logitech TAP",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "logitech_sync"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Yealink",
+    "name": "Display",
+    "price": 4497.66,
+    "features": "Samsung QB65C",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "samsung_magicinfo"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Yealink",
+    "name": "Yealink A30 Video Bar",
+    "price": 2958.82,
+    "features": "Yealink A30",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "teams",
+      "yealink_mgr"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Yealink",
+    "name": "CTP-18 Touch Console",
+    "price": 3345.84,
+    "features": "Yealink CTP-18",
+    "tier": "Standard",
+    "use_case_tags": [],
+    "compatibility_tags": [
+      "yealink_mgr"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Yealink",
+    "name": "WPP30 Wireless Content Sharing",
+    "price": 3170.81,
+    "features": "Yealink WPP30",
+    "tier": "Standard",
+    "use_case_tags": [],
+    "compatibility_tags": [
+      "yealink_byod"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Yealink",
+    "name": "Microphones",
+    "price": 1064.08,
+    "features": "Yealink VCM36-W",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio_capture"
+    ],
+    "compatibility_tags": [
+      "yealink_expansion"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "ViewSonic",
+    "name": "Display System",
+    "price": 3712.59,
+    "features": "ViewSonic LS610HDHE",
+    "tier": "Standard",
+    "use_case_tags": [
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Vector",
+    "name": "Audio System",
+    "price": 4712.3,
+    "features": "Vector Speakers",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Cue",
+    "name": "AV Automation",
+    "price": 3801.35,
+    "features": "Cue Controller with 8-Button Panel",
+    "tier": "Standard",
+    "use_case_tags": [],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Samsung",
+    "name": "Display System",
+    "price": 3531.13,
+    "features": "Samsung QM55C",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "signage",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "samsung_magicinfo"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Logitech",
+    "name": "Audio and Video",
+    "price": 2651.98,
+    "features": "Logitech Rally Mini Bar",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "collaboration",
+      "video_capture"
+    ],
+    "compatibility_tags": [
+      "logitech_sync"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Barco",
+    "name": "Wireless Conferencing",
+    "price": 462.61,
+    "features": "Barco CX-50 Gen 2 Clickshare",
+    "tier": "Enterprise",
+    "use_case_tags": [],
+    "compatibility_tags": [
+      "barco_clickshare"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Extron",
+    "name": "Input Connectivity",
+    "price": 3940.75,
+    "features": "Extron 202 Multi Cable Cubby",
+    "tier": "Standard",
+    "use_case_tags": [],
+    "compatibility_tags": [
+      "cable_management"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Logitech",
+    "name": "Video Conferencing System",
+    "price": 2781.04,
+    "features": "Logitech Rally Mini Bar",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "logitech_sync"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Samsung",
+    "name": "Display System",
+    "price": 2855.77,
+    "features": "Samsung QM65C",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "samsung_magicinfo"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Extron",
+    "name": "Control System",
+    "price": 1964.83,
+    "features": "Extron Control Processor & USB Switcher",
+    "tier": "Premium",
+    "use_case_tags": [],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Samsung",
+    "name": "Displays",
+    "price": 3000.77,
+    "features": "Samsung QM98T",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "samsung_magicinfo"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Crestron",
+    "name": "AV Sources",
+    "price": 2919.16,
+    "features": "Crestron I-series",
+    "tier": "Enterprise",
+    "use_case_tags": [],
+    "compatibility_tags": [
+      "crestron_control"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Extron",
+    "name": "Control System",
+    "price": 1834.46,
+    "features": "IPCP Pro Processor",
+    "tier": "Premium",
+    "use_case_tags": [],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Extron",
+    "name": "Recording & Connectivity",
+    "price": 3118.1,
+    "features": "SMP 352 Hardware Recorder",
+    "tier": "Premium",
+    "use_case_tags": [],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Samsung",
+    "name": "Display System",
+    "price": 3982.91,
+    "features": "Samsung VH55R-R",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "lobby",
+      "video_wall",
+      "visuals"
+    ],
+    "compatibility_tags": [
+      "samsung_magicinfo"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Crown",
+    "name": "Audio System",
+    "price": 2030.73,
+    "features": "Crown DCi4|600N",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": [
+      "dante"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Poly",
+    "name": "Video Conferencing",
+    "price": 4133.56,
+    "features": "Poly G7500",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "poly_lens"
+    ]
+  },
+  {
+    "category": "Extracted from Project",
+    "brand": "Crestron",
+    "name": "Control & Connectivity",
+    "price": 4685.07,
+    "features": "Crestron NVX System",
+    "tier": "Enterprise",
+    "use_case_tags": [],
+    "compatibility_tags": [
+      "crestron_control"
+    ]
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Sharp/NEC (Sharp NEC Display)",
+    "name": "Sharp/NEC (Sharp NEC Display) GE-5964 86\" 4K Display",
+    "price": 9977.89,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Sharp/NEC (Sharp NEC Display)",
+    "name": "Sharp/NEC (Sharp NEC Display) FZ-7233 65\" 4K Display",
+    "price": 4685.25,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Sharp/NEC (Sharp NEC Display)",
+    "name": "Sharp/NEC (Sharp NEC Display) CI-3132 86\" 4K Display",
+    "price": 9643.34,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Sharp/NEC (Sharp NEC Display)",
+    "name": "Sharp/NEC (Sharp NEC Display) QL-6238 65\" 4K Display",
+    "price": 2068.32,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Sharp/NEC (Sharp NEC Display)",
+    "name": "Sharp/NEC (Sharp NEC Display) ZN-7053 75\" 4K Display",
+    "price": 6764.12,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Sharp/NEC (Sharp NEC Display)",
+    "name": "Sharp/NEC (Sharp NEC Display) AY-9118 75\" 4K Display",
+    "price": 6012.3,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Sharp/NEC (Sharp NEC Display)",
+    "name": "Sharp/NEC (Sharp NEC Display) QF-6125 55\" 4K Display",
+    "price": 2341.28,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Sharp/NEC (Sharp NEC Display)",
+    "name": "Sharp/NEC (Sharp NEC Display) ES-7186 98\" 4K Display",
+    "price": 10300.91,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Sharp/NEC (Sharp NEC Display)",
+    "name": "Sharp/NEC (Sharp NEC Display) XN-8204 75\" 4K Display",
+    "price": 5953.51,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Sharp/NEC (Sharp NEC Display)",
+    "name": "Sharp/NEC (Sharp NEC Display) GO-9686 98\" 4K Display",
+    "price": 14470.97,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Sharp/NEC (Sharp NEC Display)",
+    "name": "Sharp/NEC (Sharp NEC Display) ZQ-1736 98\" 4K Display",
+    "price": 14674.32,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Barco",
+    "name": "Barco ZK-6736 98\" 4K Display",
+    "price": 13978.78,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Barco",
+    "name": "Barco UZ-2454 86\" 4K Display",
+    "price": 10729.08,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Barco",
+    "name": "Barco YK-8962 55\" 4K Display",
+    "price": 2097.68,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Barco",
+    "name": "Barco YH-8386 98\" 4K Display",
+    "price": 10731.84,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Barco",
+    "name": "Barco ZC-5161 65\" 4K Display",
+    "price": 4371.4,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Barco",
+    "name": "Barco FI-4447 98\" 4K Display",
+    "price": 14515.11,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Barco",
+    "name": "Barco YN-6617 86\" 4K Display",
+    "price": 9977.83,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Barco",
+    "name": "Barco QX-4007 75\" 4K Display",
+    "price": 6289.87,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Barco",
+    "name": "Barco OK-5636 55\" 4K Display",
+    "price": 3350.6,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Barco",
+    "name": "Barco WZ-3406 86\" 4K Display",
+    "price": 8648.71,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Christie",
+    "name": "Christie DE-7393 98\" 4K Display",
+    "price": 14673.74,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Christie",
+    "name": "Christie AO-4809 65\" 4K Display",
+    "price": 3912.18,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Christie",
+    "name": "Christie NI-4074 86\" 4K Display",
+    "price": 14781.04,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Christie",
+    "name": "Christie NU-1111 55\" 4K Display",
+    "price": 2772.33,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Christie",
+    "name": "Christie EV-5123 98\" 4K Display",
+    "price": 13158.46,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Christie",
+    "name": "Christie GQ-1925 55\" 4K Display",
+    "price": 1750.81,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Christie",
+    "name": "Christie VZ-5596 65\" 4K Display",
+    "price": 2355.62,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Christie",
+    "name": "Christie EV-6804 75\" 4K Display",
+    "price": 6088.08,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Christie",
+    "name": "Christie FJ-1620 55\" 4K Display",
+    "price": 3055.22,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Christie",
+    "name": "Christie BZ-7541 65\" 4K Display",
+    "price": 4739.01,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Epson",
+    "name": "Epson DI-4336 98\" 4K Display",
+    "price": 14479.52,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Epson",
+    "name": "Epson YV-6815 65\" 4K Display",
+    "price": 4011.69,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Epson",
+    "name": "Epson OI-8877 75\" 4K Display",
+    "price": 6897.66,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Epson",
+    "name": "Epson JZ-2651 86\" 4K Display",
+    "price": 12028.98,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Epson",
+    "name": "Epson GO-2921 55\" 4K Display",
+    "price": 1308.83,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Epson",
+    "name": "Epson BK-9040 55\" 4K Display",
+    "price": 3436.56,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Epson",
+    "name": "Epson QC-9751 65\" 4K Display",
+    "price": 3645.69,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Epson",
+    "name": "Epson EK-2092 65\" 4K Display",
+    "price": 4419.68,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Epson",
+    "name": "Epson VX-2321 75\" 4K Display",
+    "price": 6042.87,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Epson",
+    "name": "Epson YS-2776 55\" 4K Display",
+    "price": 2258.11,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Epson",
+    "name": "Epson XV-3238 65\" 4K Display",
+    "price": 2772.19,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "BenQ",
+    "name": "BenQ CX-9134 55\" 4K Display",
+    "price": 2068.74,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "BenQ",
+    "name": "BenQ DI-7798 55\" 4K Display",
+    "price": 2853.53,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "BenQ",
+    "name": "BenQ GI-3685 65\" 4K Display",
+    "price": 3469.31,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "BenQ",
+    "name": "BenQ VO-2016 75\" 4K Display",
+    "price": 6504.66,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "BenQ",
+    "name": "BenQ VZ-6710 65\" 4K Display",
+    "price": 2058.46,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "BenQ",
+    "name": "BenQ YS-7607 75\" 4K Display",
+    "price": 7578.43,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "BenQ",
+    "name": "BenQ ZC-9960 98\" 4K Display",
+    "price": 13470.92,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "BenQ",
+    "name": "BenQ GO-7740 55\" 4K Display",
+    "price": 1991.68,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "BenQ",
+    "name": "BenQ YX-6981 86\" 4K Display",
+    "price": 8669.75,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "BenQ",
+    "name": "BenQ OI-4458 55\" 4K Display",
+    "price": 1130.49,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "BenQ",
+    "name": "BenQ ZP-8039 55\" 4K Display",
+    "price": 3219.08,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "ViewSonic",
+    "name": "ViewSonic QI-4573 98\" 4K Display",
+    "price": 10359.38,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "ViewSonic",
+    "name": "ViewSonic XO-8902 55\" 4K Display",
+    "price": 2841.05,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "ViewSonic",
+    "name": "ViewSonic ZY-4981 75\" 4K Display",
+    "price": 7300.99,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "ViewSonic",
+    "name": "ViewSonic XN-2019 65\" 4K Display",
+    "price": 4687.26,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "ViewSonic",
+    "name": "ViewSonic ZM-3814 86\" 4K Display",
+    "price": 8402.04,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "ViewSonic",
+    "name": "ViewSonic QJ-7977 86\" 4K Display",
+    "price": 13161.42,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "ViewSonic",
+    "name": "ViewSonic QW-6804 55\" 4K Display",
+    "price": 3070.73,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "ViewSonic",
+    "name": "ViewSonic XC-9311 75\" 4K Display",
+    "price": 7272.5,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "ViewSonic",
+    "name": "ViewSonic VX-1833 65\" 4K Display",
+    "price": 4025.26,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "ViewSonic",
+    "name": "ViewSonic XJ-4100 86\" 4K Display",
+    "price": 9985.34,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Optoma",
+    "name": "Optoma ZW-6933 55\" 4K Display",
+    "price": 1048.86,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Optoma",
+    "name": "Optoma YC-1647 86\" 4K Display",
+    "price": 11218.49,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Optoma",
+    "name": "Optoma XR-4933 65\" 4K Display",
+    "price": 2068.79,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Optoma",
+    "name": "Optoma ZW-5163 98\" 4K Display",
+    "price": 14470.83,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Optoma",
+    "name": "Optoma YU-9173 55\" 4K Display",
+    "price": 1368.17,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Optoma",
+    "name": "Optoma QE-4346 65\" 4K Display",
+    "price": 4014.28,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Optoma",
+    "name": "Optoma YX-5452 75\" 4K Display",
+    "price": 5977.16,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Optoma",
+    "name": "Optoma YR-2490 86\" 4K Display",
+    "price": 14518.23,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Enterprise",
+    "use_case_tags": [
+      "large_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Optoma",
+    "name": "Optoma ZH-7440 65\" 4K Display",
+    "price": 2080.79,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Displays & Projectors",
+    "brand": "Vivitek",
+    "name": "Vivitek YJ-1533 55\" 4K Display",
+    "price": 3438.31,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "medium_room",
+      "visuals"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Poly (HP)",
+    "name": "Poly (HP) ZK-8438 Collaboration Bar",
+    "price": 5863.09,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "poly_lens"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Poly (HP)",
+    "name": "Poly (HP) ZN-6003 Video Bar Pro",
+    "price": 5370.02,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "poly_lens"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Poly (HP)",
+    "name": "Poly (HP) QF-6031 Meeting Room Kit",
+    "price": 4291.64,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "poly_lens"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Poly (HP)",
+    "name": "Poly (HP) ZI-3075 Meeting Room Kit",
+    "price": 3284.14,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "poly_lens"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Poly (HP)",
+    "name": "Poly (HP) ZJ-8457 Video Bar Pro",
+    "price": 5372.96,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "poly_lens"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Poly (HP)",
+    "name": "Poly (HP) ZH-8899 Video Bar Pro",
+    "price": 2353.47,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "poly_lens"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Poly (HP)",
+    "name": "Poly (HP) XC-3665 Collaboration Bar",
+    "price": 1882.35,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "poly_lens"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Poly (HP)",
+    "name": "Poly (HP) ZO-2182 Collaboration Bar",
+    "price": 2180.29,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "poly_lens"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Poly (HP)",
+    "name": "Poly (HP) YF-8084 Video Bar Pro",
+    "price": 5339.73,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "poly_lens"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Poly (HP)",
+    "name": "Poly (HP) XA-7264 Meeting Room Kit",
+    "price": 2892.48,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "poly_lens"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Jabra (PanaCast)",
+    "name": "Jabra (PanaCast) ZE-7042 Collaboration Bar",
+    "price": 4187.97,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Jabra (PanaCast)",
+    "name": "Jabra (PanaCast) ZL-1692 Video Bar Pro",
+    "price": 4717.37,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Jabra (PanaCast)",
+    "name": "Jabra (PanaCast) YF-2383 Collaboration Bar",
+    "price": 3579.52,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Jabra (PanaCast)",
+    "name": "Jabra (PanaCast) YP-9029 Video Bar Pro",
+    "price": 5495.6,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Jabra (PanaCast)",
+    "name": "Jabra (PanaCast) QO-8228 Meeting Room Kit",
+    "price": 2719.16,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Jabra (PanaCast)",
+    "name": "Jabra (PanaCast) XE-7299 Collaboration Bar",
+    "price": 2917.47,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Jabra (PanaCast)",
+    "name": "Jabra (PanaCast) QW-2415 Collaboration Bar",
+    "price": 3200.58,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Jabra (PanaCast)",
+    "name": "Jabra (PanaCast) QW-6291 Meeting Room Kit",
+    "price": 2656.76,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Jabra (PanaCast)",
+    "name": "Jabra (PanaCast) ZU-9640 Meeting Room Kit",
+    "price": 4355.77,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Jabra (PanaCast)",
+    "name": "Jabra (PanaCast) QW-1886 Video Bar Pro",
+    "price": 4171.79,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Neat",
+    "name": "Neat YF-4903 Collaboration Bar",
+    "price": 4046.33,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "neat_os"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Neat",
+    "name": "Neat YL-6555 Meeting Room Kit",
+    "price": 2298.81,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "neat_os"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Neat",
+    "name": "Neat XY-4217 Collaboration Bar",
+    "price": 4206.51,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "neat_os"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Neat",
+    "name": "Neat YC-2780 Collaboration Bar",
+    "price": 3091.2,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "neat_os"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Neat",
+    "name": "Neat XC-1934 Video Bar Pro",
+    "price": 5472.23,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "neat_os"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Neat",
+    "name": "Neat ZK-2101 Meeting Room Kit",
+    "price": 3284.14,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "neat_os"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Neat",
+    "name": "Neat YF-2017 Video Bar Pro",
+    "price": 2608.19,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "neat_os"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Neat",
+    "name": "Neat YX-9538 Collaboration Bar",
+    "price": 5757.26,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "neat_os"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Neat",
+    "name": "Neat YC-1748 Collaboration Bar",
+    "price": 4434.42,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "neat_os"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "DTEN",
+    "name": "DTEN ZH-8854 Meeting Room Kit",
+    "price": 3014.24,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "dten_os"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "DTEN",
+    "name": "DTEN YM-2993 Collaboration Bar",
+    "price": 3010.51,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "dten_os"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "DTEN",
+    "name": "DTEN YV-7369 Meeting Room Kit",
+    "price": 3942.3,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "dten_os"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "DTEN",
+    "name": "DTEN ZC-4965 Collaboration Bar",
+    "price": 3313.15,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "dten_os"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "DTEN",
+    "name": "DTEN ZR-9041 Video Bar Pro",
+    "price": 4601.59,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "dten_os"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "DTEN",
+    "name": "DTEN ZM-4687 Meeting Room Kit",
+    "price": 2319.46,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "dten_os"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "DTEN",
+    "name": "DTEN YX-6712 Video Bar Pro",
+    "price": 3969.36,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "dten_os"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "DTEN",
+    "name": "DTEN YN-3694 Collaboration Bar",
+    "price": 4044.82,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "dten_os"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "DTEN",
+    "name": "DTEN ZY-6869 Video Bar Pro",
+    "price": 5382.5,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "dten_os"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "DTEN",
+    "name": "DTEN YW-1425 Meeting Room Kit",
+    "price": 3890.31,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "dten_os"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "DTEN",
+    "name": "DTEN YW-3277 Collaboration Bar",
+    "price": 5798.81,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "dten_os"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Aver (VC Bars)",
+    "name": "Aver (VC Bars) ZY-9104 Meeting Room Kit",
+    "price": 2290.47,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Aver (VC Bars)",
+    "name": "Aver (VC Bars) ZW-2223 Meeting Room Kit",
+    "price": 4521.84,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Aver (VC Bars)",
+    "name": "Aver (VC Bars) ZN-6663 Meeting Room Kit",
+    "price": 4512.91,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Aver (VC Bars)",
+    "name": "Aver (VC Bars) QK-9285 Video Bar Pro",
+    "price": 2997.16,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Aver (VC Bars)",
+    "name": "Aver (VC Bars) YS-3580 Video Bar Pro",
+    "price": 3976.24,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Aver (VC Bars)",
+    "name": "Aver (VC Bars) ZU-2098 Collaboration Bar",
+    "price": 2626.06,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Aver (VC Bars)",
+    "name": "Aver (VC Bars) YU-6481 Collaboration Bar",
+    "price": 5985.66,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Aver (VC Bars)",
+    "name": "Aver (VC Bars) YU-5784 Collaboration Bar",
+    "price": 4187.77,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Aver (VC Bars)",
+    "name": "Aver (VC Bars) XC-9799 Meeting Room Kit",
+    "price": 3587.48,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Aver (VC Bars)",
+    "name": "Aver (VC Bars) QW-6047 Collaboration Bar",
+    "price": 2976.35,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "EPOS",
+    "name": "EPOS YV-9492 Video Bar Pro",
+    "price": 2975.05,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "EPOS",
+    "name": "EPOS ZY-6916 Collaboration Bar",
+    "price": 3313.3,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "EPOS",
+    "name": "EPOS ZY-8777 Video Bar Pro",
+    "price": 3035.78,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "EPOS",
+    "name": "EPOS QW-9407 Video Bar Pro",
+    "price": 3044.29,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "EPOS",
+    "name": "EPOS YU-9828 Collaboration Bar",
+    "price": 3516.37,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "EPOS",
+    "name": "EPOS ZW-2041 Meeting Room Kit",
+    "price": 3886.23,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "EPOS",
+    "name": "EPOS ZM-8565 Video Bar Pro",
+    "price": 5279.74,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "EPOS",
+    "name": "EPOS ZW-4007 Meeting Room Kit",
+    "price": 4171.18,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "EPOS",
+    "name": "EPOS YW-3200 Video Bar Pro",
+    "price": 4334.81,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Lenovo (ThinkSmart)",
+    "name": "Lenovo (ThinkSmart) YU-5989 Collaboration Bar",
+    "price": 3973.94,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "lenovo_thinksmart"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Lenovo (ThinkSmart)",
+    "name": "Lenovo (ThinkSmart) ZK-8433 Video Bar Pro",
+    "price": 5987.97,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "lenovo_thinksmart"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Lenovo (ThinkSmart)",
+    "name": "Lenovo (ThinkSmart) QY-1574 Video Bar Pro",
+    "price": 3625.32,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "lenovo_thinksmart"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Lenovo (ThinkSmart)",
+    "name": "Lenovo (ThinkSmart) ZN-4309 Collaboration Bar",
+    "price": 2484.72,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "lenovo_thinksmart"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Lenovo (ThinkSmart)",
+    "name": "Lenovo (ThinkSmart) YJ-5858 Video Bar Pro",
+    "price": 5232.06,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "lenovo_thinksmart"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Lenvo (ThinkSmart)",
+    "name": "Lenovo (ThinkSmart) ZJ-7071 Collaboration Bar",
+    "price": 5042.84,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "lenovo_thinksmart"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Lenovo (ThinkSmart)",
+    "name": "Lenovo (ThinkSmart) ZH-4712 Meeting Room Kit",
+    "price": 3284.14,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "lenovo_thinksmart"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Lenovo (ThinkSmart)",
+    "name": "Lenovo (ThinkSmart) YS-6020 Collaboration Bar",
+    "price": 1904.38,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "lenovo_thinksmart"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Lenovo (ThinkSmart)",
+    "name": "Lenovo (ThinkSmart) ZP-6893 Video Bar Pro",
+    "price": 3338.9,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "lenovo_thinksmart"
+    ]
+  },
+  {
+    "category": "UC & Collaboration Devices",
+    "brand": "Lenovo (ThinkSmart)",
+    "name": "Lenovo (ThinkSmart) ZK-9243 Collaboration Bar",
+    "price": 4047.88,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "collaboration"
+    ],
+    "compatibility_tags": [
+      "lenovo_thinksmart"
+    ]
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Panasonic (PTZ)",
+    "name": "Panasonic (PTZ) ZE-5701 12x PTZ Camera",
+    "price": 1767.43,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Panasonic (PTZ)",
+    "name": "Panasonic (PTZ) YC-3843 20x PTZ Camera",
+    "price": 2666.86,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Panasonic (PTZ)",
+    "name": "Panasonic (PTZ) QW-5806 20x PTZ Camera",
+    "price": 3731.0,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Panasonic (PTZ)",
+    "name": "Panasonic (PTZ) YL-3904 30x PTZ Camera",
+    "price": 4419.04,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Panasonic (PTZ)",
+    "name": "Panasonic (PTZ) YM-1808 12x PTZ Camera",
+    "price": 2367.75,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Panasonic (PTZ)",
+    "name": "Panasonic (PTZ) YU-7988 12x PTZ Camera",
+    "price": 1545.92,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Panasonic (PTZ)",
+    "name": "Panasonic (PTZ) YW-5219 20x PTZ Camera",
+    "price": 3699.23,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Panasonic (PTZ)",
+    "name": "Panasonic (PTZ) ZF-3074 12x PTZ Camera",
+    "price": 2250.7,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Panasonic (PTZ)",
+    "name": "Panasonic (PTZ) ZK-8724 20x PTZ Camera",
+    "price": 2641.48,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Panasonic (PTZ)",
+    "name": "Panasonic (PTZ) YR-8239 30x PTZ Camera",
+    "price": 4010.59,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Canon (PTZ)",
+    "name": "Canon (PTZ) ZU-6785 12x PTZ Camera",
+    "price": 2140.23,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Canon (PTZ)",
+    "name": "Canon (PTZ) ZK-4235 30x PTZ Camera",
+    "price": 4460.91,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Canon (PTZ)",
+    "name": "Canon (PTZ) ZM-9705 12x PTZ Camera",
+    "price": 1236.43,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Canon (PTZ)",
+    "name": "Canon (PTZ) QO-8231 12x PTZ Camera",
+    "price": 2336.83,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Canon (PTZ)",
+    "name": "Canon (PTZ) ZM-3475 20x PTZ Camera",
+    "price": 2543.08,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Canon (PTZ)",
+    "name": "Canon (PTZ) QX-6677 30x PTZ Camera",
+    "price": 4856.12,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Canon (PTZ)",
+    "name": "Canon (PTZ) ZW-4946 20x PTZ Camera",
+    "price": 3967.65,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Canon (PTZ)",
+    "name": "Canon (PTZ) YN-1498 12x PTZ Camera",
+    "price": 2046.36,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Canon (PTZ)",
+    "name": "Canon (PTZ) YU-7541 30x PTZ Camera",
+    "price": 4112.59,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Canon (PTZ)",
+    "name": "Canon (PTZ) QW-2415 12x PTZ Camera",
+    "price": 2367.75,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Lumens",
+    "name": "Lumens ZC-4977 12x PTZ Camera",
+    "price": 1873.74,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Lumens",
+    "name": "Lumens ZO-4318 20x PTZ Camera",
+    "price": 3082.97,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Lumens",
+    "name": "Lumens YS-9014 30x PTZ Camera",
+    "price": 4434.42,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Lumens",
+    "name": "Lumens ZH-1960 12x PTZ Camera",
+    "price": 1904.38,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Lumens",
+    "name": "Lumens ZX-6453 12x PTZ Camera",
+    "price": 1822.42,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Lumens",
+    "name": "Lumens ZE-7341 20x PTZ Camera",
+    "price": 3699.23,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Lumens",
+    "name": "Lumens ZW-4007 20x PTZ Camera",
+    "price": 3560.19,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Lumens",
+    "name": "Lumens ZX-8215 30x PTZ Camera",
+    "price": 4010.59,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Lumens",
+    "name": "Lumens YR-1965 20x PTZ Camera",
+    "price": 3587.48,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "AVer (PTZ)",
+    "name": "AVer (PTZ) ZP-3652 12x PTZ Camera",
+    "price": 1223.36,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "AVer (PTZ)",
+    "name": "AVer (PTZ) ZE-6323 30x PTZ Camera",
+    "price": 4512.91,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "AVer (PTZ)",
+    "name": "AVer (PTZ) YW-8877 20x PTZ Camera",
+    "price": 3044.29,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "AVer (PTZ)",
+    "name": "AVer (PTZ) YH-9781 12x PTZ Camera",
+    "price": 1931.29,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "AVer (PTZ)",
+    "name": "AVer (PTZ) YW-2646 12x PTZ Camera",
+    "price": 1956.12,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "AVer (PTZ)",
+    "name": "AVer (PTZ) ZF-3682 20x PTZ Camera",
+    "price": 3035.78,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "AVer (PTZ)",
+    "name": "AVer (PTZ) YN-1498 30x PTZ Camera",
+    "price": 4222.1,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "AVer (PTZ)",
+    "name": "AVer (PTZ) QW-9407 12x PTZ Camera",
+    "price": 1630.93,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "AVer (PTZ)",
+    "name": "AVer (PTZ) ZW-2041 30x PTZ Camera",
+    "price": 4011.0,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "AVer (PTZ)",
+    "name": "AVer (PTZ) ZF-3074 20x PTZ Camera",
+    "price": 3967.65,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "AVer (PTZ)",
+    "name": "AVer (PTZ) ZM-8565 12x PTZ Camera",
+    "price": 1873.74,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Marshall Electronics",
+    "name": "Marshall Electronics YL-3904 20x PTZ Camera",
+    "price": 3731.0,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Marshall Electronics",
+    "name": "Marshall Electronics ZX-6453 12x PTZ Camera",
+    "price": 1822.42,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Marshall Electronics",
+    "name": "Marshall Electronics ZW-4007 20x PTZ Camera",
+    "price": 3560.19,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Marshall Electronics",
+    "name": "Marshall Electronics QW-5806 30x PTZ Camera",
+    "price": 4419.04,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Marshall Electronics",
+    "name": "Marshall Electronics ZX-8215 12x PTZ Camera",
+    "price": 1904.38,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Marshall Electronics",
+    "name": "Marshall Electronics YM-1808 30x PTZ Camera",
+    "price": 4010.59,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Marshall Electronics",
+    "name": "Marshall Electronics YU-7988 20x PTZ Camera",
+    "price": 2666.86,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Marshall Electronics",
+    "name": "Marshall Electronics YW-5219 12x PTZ Camera",
+    "price": 2367.75,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "PTZOptics",
+    "name": "PTZOptics YR-1965 20x PTZ Camera",
+    "price": 3587.48,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "PTZOptics",
+    "name": "PTZOptics ZF-3074 12x PTZ Camera",
+    "price": 2250.7,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "PTZOptics",
+    "name": "PTZOptics ZK-8724 20x PTZ Camera",
+    "price": 2641.48,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "PTZOptics",
+    "name": "PTZOptics YR-8239 30x PTZ Camera",
+    "price": 4011.0,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "PTZOptics",
+    "name": "PTZOptics ZU-6785 12x PTZ Camera",
+    "price": 2140.23,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "PTZOptics",
+    "name": "PTZOptics ZK-4235 30x PTZ Camera",
+    "price": 4460.91,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "PTZOptics",
+    "name": "PTZOptics ZM-9705 12x PTZ Camera",
+    "price": 1236.43,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "PTZOptics",
+    "name": "PTZOptics QO-8231 12x PTZ Camera",
+    "price": 2336.83,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "PTZOptics",
+    "name": "PTZOptics ZM-3475 20x PTZ Camera",
+    "price": 2543.08,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Huddly",
+    "name": "Huddly QX-6677 30x PTZ Camera",
+    "price": 4856.12,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Huddly",
+    "name": "Huddly ZW-4946 20x PTZ Camera",
+    "price": 3967.65,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Huddly",
+    "name": "Huddly YN-1498 12x PTZ Camera",
+    "price": 2046.36,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Huddly",
+    "name": "Huddly YU-7541 30x PTZ Camera",
+    "price": 4112.59,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Huddly",
+    "name": "Huddly QW-2415 12x PTZ Camera",
+    "price": 2367.75,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Huddly",
+    "name": "Huddly ZC-4977 12x PTZ Camera",
+    "price": 1873.74,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Huddly",
+    "name": "Huddly ZO-4318 20x PTZ Camera",
+    "price": 3082.97,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Huddly",
+    "name": "Huddly YS-9014 30x PTZ Camera",
+    "price": 4434.42,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Huddly",
+    "name": "Huddly ZH-1960 12x PTZ Camera",
+    "price": 1904.38,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Vaddio (Legrand AV)",
+    "name": "Vaddio (Legrand AV) YW-8877 20x PTZ Camera",
+    "price": 3044.29,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Vaddio (Legrand AV)",
+    "name": "Vaddio (Legrand AV) YH-9781 12x PTZ Camera",
+    "price": 1931.29,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Vaddio (Legrand AV)",
+    "name": "Vaddio (Legrand AV) YW-2646 12x PTZ Camera",
+    "price": 1956.12,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Vaddio (Legrand AV)",
+    "name": "Vaddio (Legrand AV) ZF-3682 20x PTZ Camera",
+    "price": 3035.78,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Vaddio (Legrand AV)",
+    "name": "Vaddio (Legrand AV) YN-1498 30x PTZ Camera",
+    "price": 4222.1,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Vaddio (Legrand AV)",
+    "name": "Vaddio (Legrand AV) QW-9407 12x PTZ Camera",
+    "price": 1630.93,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Vaddio (Legrand AV)",
+    "name": "Vaddio (Legrand AV) ZW-2041 30x PTZ Camera",
+    "price": 4011.0,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Vaddio (Legrand AV)",
+    "name": "Vaddio (Legrand AV) ZF-3074 20x PTZ Camera",
+    "price": 3967.65,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "PTZ & Pro Video Cameras",
+    "brand": "Vaddio (Legrand AV)",
+    "name": "Vaddio (Legrand AV) ZM-8565 12x PTZ Camera",
+    "price": 1873.74,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "video_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Sennheiser (TeamConnect)",
+    "name": "Sennheiser (TeamConnect) ZP-3652 Ceiling Array Mic",
+    "price": 2528.0,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Sennheiser (TeamConnect)",
+    "name": "Sennheiser (TeamConnect) ZE-6323 Wireless System",
+    "price": 3141.28,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Sennheiser (TeamConnect)",
+    "name": "Sennheiser (TeamConnect) YW-8877 Tabletop Mic",
+    "price": 795.53,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Sennheiser (TeamConnect)",
+    "name": "Sennheiser (TeamConnect) YH-9781 Wireless System",
+    "price": 3564.44,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Sennheiser (TeamConnect)",
+    "name": "Sennheiser (TeamConnect) YW-2646 Ceiling Array Mic",
+    "price": 2955.51,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Sennheiser (TeamConnect)",
+    "name": "Sennheiser (TeamConnect) ZF-3682 Tabletop Mic",
+    "price": 658.98,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Sennheiser (TeamConnect)",
+    "name": "Sennheiser (TeamConnect) YN-1498 Ceiling Array Mic",
+    "price": 2962.33,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Sennheiser (TeamConnect)",
+    "name": "Sennheiser (TeamConnect) QW-9407 Tabletop Mic",
+    "price": 921.65,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Sennheiser (TeamConnect)",
+    "name": "Sennheiser (TeamConnect) ZW-2041 Wireless System",
+    "price": 3630.34,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Sennheiser (TeamConnect)",
+    "name": "Sennheiser (TeamConnect) ZF-3074 Ceiling Array Mic",
+    "price": 2615.19,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Audio-Technica",
+    "name": "Audio-Technica ZM-8565 Tabletop Mic",
+    "price": 822.42,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Audio-Technica",
+    "name": "Audio-Technica ZE-5701 Wireless System",
+    "price": 3424.31,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Audio-Technica",
+    "name": "Audio-Technica YC-3843 Ceiling Array Mic",
+    "price": 2719.16,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Audio-Technica",
+    "name": "Audio-Technica QW-5806 Tabletop Mic",
+    "price": 658.98,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Audio-Technica",
+    "name": "Audio-Technica YL-3904 Wireless System",
+    "price": 3141.28,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Audio-Technica",
+    "name": "Audio-Technica YM-1808 Ceiling Array Mic",
+    "price": 2955.51,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Audio-Technica",
+    "name": "Audio-Technica YU-7988 Wireless System",
+    "price": 3564.44,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Audio-Technica",
+    "name": "Audio-Technica YW-5219 Tabletop Mic",
+    "price": 795.53,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Audio-Technica",
+    "name": "Audio-Technica ZF-3074 Ceiling Array Mic",
+    "price": 2615.19,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Audio-Technica",
+    "name": "Audio-Technica ZK-8724 Wireless System",
+    "price": 3630.34,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Audio-Technica",
+    "name": "Audio-Technica YR-8239 Tabletop Mic",
+    "price": 921.65,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Biamp (Parlé)",
+    "name": "Biamp (Parlé) ZP-3652 Ceiling Array Mic",
+    "price": 2528.0,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Biamp (Parlé)",
+    "name": "Biamp (Parlé) ZE-6323 Wireless System",
+    "price": 3141.28,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Biamp (Parlé)",
+    "name": "Biamp (Parlé) YW-8877 Tabletop Mic",
+    "price": 795.53,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Biamp (Parlé)",
+    "name": "Biamp (Parlé) YH-9781 Wireless System",
+    "price": 3564.44,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Biamp (Parlé)",
+    "name": "Biamp (Parlé) YW-2646 Ceiling Array Mic",
+    "price": 2955.51,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Biamp (Parlé)",
+    "name": "Biamp (Parlé) ZF-3682 Tabletop Mic",
+    "price": 658.98,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Biamp (Parlé)",
+    "name": "Biamp (Parlé) YN-1498 Ceiling Array Mic",
+    "price": 2962.33,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Biamp (Parlé)",
+    "name": "Biamp (Parlé) QW-9407 Tabletop Mic",
+    "price": 921.65,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Biamp (Parlé)",
+    "name": "Biamp (Parlé) ZW-2041 Wireless System",
+    "price": 3630.34,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Yamaha UC",
+    "name": "Yamaha UC ZF-3074 Ceiling Array Mic",
+    "price": 2615.19,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Yamaha UC",
+    "name": "Yamaha UC ZM-8565 Tabletop Mic",
+    "price": 822.42,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Yamaha UC",
+    "name": "Yamaha UC ZE-5701 Wireless System",
+    "price": 3424.31,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Yamaha UC",
+    "name": "Yamaha UC YC-3843 Ceiling Array Mic",
+    "price": 2719.16,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Yamaha UC",
+    "name": "Yamaha UC QW-5806 Tabletop Mic",
+    "price": 658.98,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Yamaha UC",
+    "name": "Yamaha UC YL-3904 Wireless System",
+    "price": 3141.28,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Yamaha UC",
+    "name": "Yamaha UC YM-1808 Ceiling Array Mic",
+    "price": 2955.51,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Yamaha UC",
+    "name": "Yamaha UC YU-7988 Wireless System",
+    "price": 3564.44,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Yamaha UC",
+    "name": "Yamaha UC YW-5219 Tabletop Mic",
+    "price": 795.53,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Yamaha UC",
+    "name": "Yamaha UC ZF-3074 Ceiling Array Mic",
+    "price": 2615.19,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Yamaha UC",
+    "name": "Yamaha UC ZK-8724 Wireless System",
+    "price": 3630.34,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Beyerdynamic",
+    "name": "Beyerdynamic YR-8239 Tabletop Mic",
+    "price": 921.65,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Beyerdynamic",
+    "name": "Beyerdynamic ZP-3652 Ceiling Array Mic",
+    "price": 2528.0,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Beyerdynamic",
+    "name": "Beyerdynamic ZE-6323 Wireless System",
+    "price": 3141.28,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Beyerdynamic",
+    "name": "Beyerdynamic YW-8877 Tabletop Mic",
+    "price": 795.53,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Beyerdynamic",
+    "name": "Beyerdynamic YH-9781 Wireless System",
+    "price": 3564.44,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Beyerdynamic",
+    "name": "Beyerdynamic YW-2646 Ceiling Array Mic",
+    "price": 2955.51,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Beyerdynamic",
+    "name": "Beyerdynamic ZF-3682 Tabletop Mic",
+    "price": 658.98,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Beyerdynamic",
+    "name": "Beyerdynamic YN-1498 Ceiling Array Mic",
+    "price": 2962.33,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Beyerdynamic",
+    "name": "Beyerdynamic QW-9407 Tabletop Mic",
+    "price": 921.65,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Beyerdynamic",
+    "name": "Beyerdynamic ZW-2041 Wireless System",
+    "price": 3630.34,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Audix",
+    "name": "Audix ZF-3074 Ceiling Array Mic",
+    "price": 2615.19,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Audix",
+    "name": "Audix ZM-8565 Tabletop Mic",
+    "price": 822.42,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Audix",
+    "name": "Audix ZE-5701 Wireless System",
+    "price": 3424.31,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Audix",
+    "name": "Audix YC-3843 Ceiling Array Mic",
+    "price": 2719.16,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Audix",
+    "name": "Audix QW-5806 Tabletop Mic",
+    "price": 658.98,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Audix",
+    "name": "Audix YL-3904 Wireless System",
+    "price": 3141.28,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Audix",
+    "name": "Audix YM-1808 Ceiling Array Mic",
+    "price": 2955.51,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Audix",
+    "name": "Audix YU-7988 Wireless System",
+    "price": 3564.44,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Audix",
+    "name": "Audix YW-5219 Tabletop Mic",
+    "price": 795.53,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Audix",
+    "name": "Audix ZF-3074 Ceiling Array Mic",
+    "price": 2615.19,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Audix",
+    "name": "Audix ZK-8724 Wireless System",
+    "price": 3630.34,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Nureva",
+    "name": "Nureva YR-8239 Tabletop Mic",
+    "price": 921.65,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Nureva",
+    "name": "Nureva ZP-3652 Ceiling Array Mic",
+    "price": 2528.0,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Nureva",
+    "name": "Nureva ZE-6323 Wireless System",
+    "price": 3141.28,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Nureva",
+    "name": "Nureva YW-8877 Tabletop Mic",
+    "price": 795.53,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Nureva",
+    "name": "Nureva YH-9781 Wireless System",
+    "price": 3564.44,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Nureva",
+    "name": "Nureva YW-2646 Ceiling Array Mic",
+    "price": 2955.51,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Nureva",
+    "name": "Nureva ZF-3682 Tabletop Mic",
+    "price": 658.98,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Nureva",
+    "name": "Nureva YN-1498 Ceiling Array Mic",
+    "price": 2962.33,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "Nureva",
+    "name": "Nureva QW-9407 Tabletop Mic",
+    "price": 921.65,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "ClearOne",
+    "name": "ClearOne ZW-2041 Wireless System",
+    "price": 3630.34,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "ClearOne",
+    "name": "ClearOne ZF-3074 Ceiling Array Mic",
+    "price": 2615.19,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "ClearOne",
+    "name": "ClearOne ZM-8565 Tabletop Mic",
+    "price": 822.42,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "ClearOne",
+    "name": "ClearOne ZE-5701 Wireless System",
+    "price": 3424.31,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "ClearOne",
+    "name": "ClearOne YC-3843 Ceiling Array Mic",
+    "price": 2719.16,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "ClearOne",
+    "name": "ClearOne QW-5806 Tabletop Mic",
+    "price": 658.98,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "ClearOne",
+    "name": "ClearOne YL-3904 Wireless System",
+    "price": 3141.28,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "ClearOne",
+    "name": "ClearOne YM-1808 Ceiling Array Mic",
+    "price": 2955.51,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "ClearOne",
+    "name": "ClearOne YU-7988 Wireless System",
+    "price": 3564.44,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "ClearOne",
+    "name": "ClearOne YW-5219 Tabletop Mic",
+    "price": 795.53,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "AKG (Harman)",
+    "name": "AKG (Harman) ZF-3074 Ceiling Array Mic",
+    "price": 2615.19,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "AKG (Harman)",
+    "name": "AKG (Harman) ZK-8724 Wireless System",
+    "price": 3630.34,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "AKG (Harman)",
+    "name": "AKG (Harman) YR-8239 Tabletop Mic",
+    "price": 921.65,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "AKG (Harman)",
+    "name": "AKG (Harman) ZP-3652 Ceiling Array Mic",
+    "price": 2528.0,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "AKG (Harman)",
+    "name": "AKG (Harman) ZE-6323 Wireless System",
+    "price": 3141.28,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "AKG (Harman)",
+    "name": "AKG (Harman) YW-8877 Tabletop Mic",
+    "price": 795.53,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "AKG (Harman)",
+    "name": "AKG (Harman) YH-9781 Wireless System",
+    "price": 3564.44,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "AKG (Harman)",
+    "name": "AKG (Harman) YW-2646 Ceiling Array Mic",
+    "price": 2955.51,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: Microphones & Conferencing",
+    "brand": "AKG (Harman)",
+    "name": "AKG (Harman) ZF-3682 Tabletop Mic",
+    "price": 658.98,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio",
+      "audio_capture"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "Biamp (Tesira)",
+    "name": "Biamp (Tesira) YN-1498 Audio Processor",
+    "price": 4839.29,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "Biamp (Tesira)",
+    "name": "Biamp (Tesira) QW-9407 Audio Processor",
+    "price": 4700.5,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "Biamp (Tesira)",
+    "name": "Biamp (Tesira) ZW-2041 Audio Processor",
+    "price": 4213.91,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "Biamp (Tesira)",
+    "name": "Biamp (Tesira) ZF-3074 Audio Processor",
+    "price": 3935.63,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "Biamp (Tesira)",
+    "name": "Biamp (Tesira) ZM-8565 Audio Processor",
+    "price": 4479.2,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "Biamp (Tesira)",
+    "name": "Biamp (Tesira) ZE-5701 Audio Processor",
+    "price": 3916.14,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "Biamp (Tesira)",
+    "name": "Biamp (Tesira) YC-3843 Audio Processor",
+    "price": 4445.69,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "Biamp (Tesira)",
+    "name": "Biamp (Tesira) QW-5806 Audio Processor",
+    "price": 4213.91,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "Biamp (Tesira)",
+    "name": "Biamp (Tesira) YL-3904 Audio Processor",
+    "price": 4839.29,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "BSS (Harman)",
+    "name": "BSS (Harman) YM-1808 Audio Processor",
+    "price": 4700.5,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "BSS (Harman)",
+    "name": "BSS (Harman) YU-7988 Audio Processor",
+    "price": 4213.91,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "BSS (Harman)",
+    "name": "BSS (Harman) YW-5219 Audio Processor",
+    "price": 3935.63,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "BSS (Harman)",
+    "name": "BSS (Harman) ZF-3074 Audio Processor",
+    "price": 4479.2,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "BSS (Harman)",
+    "name": "BSS (Harman) ZK-8724 Audio Processor",
+    "price": 3916.14,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "BSS (Harman)",
+    "name": "BSS (Harman) YR-8239 Audio Processor",
+    "price": 4445.69,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "BSS (Harman)",
+    "name": "BSS (Harman) ZP-3652 Audio Processor",
+    "price": 4213.91,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "BSS (Harman)",
+    "name": "BSS (Harman) ZE-6323 Audio Processor",
+    "price": 4839.29,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "BSS (Harman)",
+    "name": "BSS (Harman) YW-8877 Audio Processor",
+    "price": 4700.5,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "BSS (Harman)",
+    "name": "BSS (Harman) YH-9781 Audio Processor",
+    "price": 4213.91,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "Shure (IntelliMix)",
+    "name": "Shure (IntelliMix) YW-2646 Audio Processor",
+    "price": 3935.63,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "Shure (IntelliMix)",
+    "name": "Shure (IntelliMix) ZF-3682 Audio Processor",
+    "price": 4479.2,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "Shure (IntelliMix)",
+    "name": "Shure (IntelliMix) YN-1498 Audio Processor",
+    "price": 3916.14,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "Shure (IntelliMix)",
+    "name": "Shure (IntelliMix) QW-9407 Audio Processor",
+    "price": 4445.69,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "Shure (IntelliMix)",
+    "name": "Shure (IntelliMix) ZW-2041 Audio Processor",
+    "price": 4213.91,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "Shure (IntelliMix)",
+    "name": "Shure (IntelliMix) ZF-3074 Audio Processor",
+    "price": 4839.29,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "Shure (IntelliMix)",
+    "name": "Shure (IntelliMix) ZM-8565 Audio Processor",
+    "price": 4700.5,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "Shure (IntelliMix)",
+    "name": "Shure (IntelliMix) ZE-5701 Audio Processor",
+    "price": 4213.91,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Premium",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "Yamaha (MTX/QN)",
+    "name": "Yamaha (MTX/QN) YC-3843 Audio Processor",
+    "price": 3935.63,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+    "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
+  {
+    "category": "Audio: DSP & Processing",
+    "brand": "Yamaha (MTX/QN)",
+    "name": "Yamaha (MTX/QN) QW-5806 Audio Processor",
+    "price": 4479.2,
+    "features": "Generated Model for Catalog Expansion",
+    "tier": "Standard",
+        "use_case_tags": [
+      "audio"
+    ],
+    "compatibility_tags": []
+  },
