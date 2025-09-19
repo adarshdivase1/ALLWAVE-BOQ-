@@ -159,8 +159,7 @@ class IntelligentBOQGenerator:
         """Intelligently determine room type based on requirements."""
         audience_size = requirements['audience_size']
         project_type = requirements.get('project_type', '').lower()
-        requirements_list = [req.lower() for req in requirements.get('requirements', [])]
-
+        
         if audience_size <= 6:
             return 'huddle_room'
         elif audience_size <= 12:
@@ -253,7 +252,7 @@ class IntelligentBOQGenerator:
                 if tier_filter.any():
                     filtered = filtered[tier_filter]
 
-        # Category-specific filtering
+        # Category-specific filtering for display size
         if category == 'Displays & Projectors':
             room_info = self.room_equipment_logic.get(room_type, {})
             display_size = room_info.get('display_size', '')
@@ -545,13 +544,13 @@ def show_intelligent_boq_page():
                 csv_data = df_boq.to_csv(index=False)
                 st.download_button(
                     "📄 Download CSV", csv_data,
-                    f"BOQ_{project_name.replace(' ', '_')}.csv", "text/csv"
+                    f"BOQ_{boq['project_info']['name'].replace(' ', '_')}.csv", "text/csv"
                 )
             with col2:
                 json_data = json.dumps(boq, indent=2, default=str)
                 st.download_button(
                     "📋 Download JSON", json_data,
-                    f"BOQ_{project_name.replace(' ', '_')}.json", "application/json"
+                    f"BOQ_{boq['project_info']['name'].replace(' ', '_')}.json", "application/json"
                 )
 
 def show_database_page():
@@ -566,6 +565,7 @@ def show_database_page():
         if uploaded_file:
             try:
                 df = pd.read_csv(uploaded_file)
+                st.dataframe(df.head())
                 if st.button("💾 Save to Database", type="primary"):
                     if save_product_data(df.to_dict('records')):
                         st.success("✅ Database initialized successfully!")
@@ -639,12 +639,13 @@ def show_database_page():
             
             merge_option = st.radio("Import Option", ["Append to existing data", "Replace existing data"])
             if st.button("Import Data"):
-                final_data = products_data + new_df.to_dict('records') if merge_option == "Append" else new_df.to_dict('records')
+                final_data = products_data + new_df.to_dict('records') if merge_option == "Append to existing data" else new_df.to_dict('records')
                 if save_product_data(final_data):
                     st.success("✅ Data imported successfully!")
                     st.rerun()
 
-    with tab4:
+    # CORRECTED BLOCK: Changed 'with tab4:' to 'with tab3:'
+    with tab3:
         st.subheader("Export Product Data")
         col1, col2 = st.columns(2)
         with col1:
@@ -724,7 +725,7 @@ def main():
         "This app uses AI to create optimized Bills of Quantities for AV systems. "
         "Navigate using the options above."
     )
-    st.sidebar.markdown("**Version:** 2.0.1")
+    st.sidebar.markdown("**Version:** 2.0.2")
 
     # Run the selected page function
     pages[selected_page]()
