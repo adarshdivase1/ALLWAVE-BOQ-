@@ -166,6 +166,88 @@ def create_sample_data():
     ]
     return sample_products
 
+def process_csv_data(df):
+    """Process CSV data to JSON format"""
+    
+    def map_category(category_name):
+        """Map CSV categories to BOQ categories"""
+        category_mapping = {
+            'Displays & Projectors': 'display',
+            'Mounts & Racks': 'mounting',
+            'Audio': 'audio',
+            'Control Systems': 'control',
+            'Video': 'video',
+            'Cables': 'cable'
+        }
+        
+        if category_name in category_mapping:
+            return category_mapping[category_name]
+        
+        # Fallback keyword matching
+        category_lower = str(category_name).lower()
+        if 'display' in category_lower or 'projector' in category_lower:
+            return 'display'
+        elif 'audio' in category_lower or 'speaker' in category_lower:
+            return 'audio'
+        elif 'control' in category_lower:
+            return 'control'
+        elif 'video' in category_lower or 'camera' in category_lower:
+            return 'video'
+        elif 'cable' in category_lower:
+            return 'cable'
+        elif 'mount' in category_lower or 'rack' in category_lower:
+            return 'mounting'
+        else:
+            return 'other'
+    
+    def parse_compatibility(compatibility_tags):
+        """Parse compatibility tags"""
+        if pd.isna(compatibility_tags):
+            return []
+        
+        tags = str(compatibility_tags).replace(' ', '').split(',')
+        compatibility_map = {
+            'samsung_magicinfo': 'Samsung MagicInfo',
+            'vesa': 'VESA',
+            'hdmi': 'HDMI',
+            'usb': 'USB',
+            'ethernet': 'Ethernet'
+        }
+        
+        mapped_tags = []
+        for tag in tags:
+            tag = tag.lower().strip()
+            if tag in compatibility_map:
+                mapped_tags.append(compatibility_map[tag])
+            elif tag:
+                mapped_tags.append(tag.title())
+        
+        return mapped_tags
+    
+    processed_products = []
+    
+    for index, row in df.iterrows():
+        if pd.isna(row['name']) or pd.isna(row['brand']):
+            continue
+        
+        product = {
+            'company': str(row['brand']).strip(),
+            'model_no': f"{row['brand']}-{index:04d}",
+            'description': str(row['name']).strip(),
+            'category': map_category(str(row['category'])),
+            'price': float(row['price']) if not pd.isna(row['price']) else 0.0,
+            'specifications': {
+                'features': str(row['features']) if not pd.isna(row['features']) else '',
+                'tier': str(row['tier']) if not pd.isna(row['tier']) else '',
+                'use_cases': str(row['use_case_tags']).split(',') if not pd.isna(row['use_case_tags']) else []
+            },
+            'compatibility': parse_compatibility(row.get('compatibility_tags', ''))
+        }
+        
+        processed_products.append(product)
+    
+    return processed_products
+
 def main():
     st.title("🚀 Simple BOQ Generator")
     st.markdown("Generate Bills of Quantities from your product database")
@@ -196,20 +278,46 @@ def show_product_database_page():
     
     with col1:
         st.subheader("Upload Product Data")
-        uploaded_file = st.file_uploader("Upload processed_products.json", type=['json'])
         
-        if uploaded_file:
+        # Option 1: Upload JSON
+        uploaded_json = st.file_uploader("Upload processed_products.json", type=['json'])
+        
+        if uploaded_json:
             try:
-                new_products = json.load(uploaded_file)
-                st.success(f"Loaded {len(new_products)} products from file!")
+                new_products = json.load(uploaded_json)
+                st.success(f"Loaded {len(new_products)} products from JSON!")
                 
-                if st.button("Save to Database"):
+                if st.button("Save JSON to Database"):
                     if save_product_data(new_products):
                         st.success("Data saved successfully!")
                         st.rerun()
                         
             except Exception as e:
-                st.error(f"Error loading file: {str(e)}")
+                st.error(f"Error loading JSON file: {str(e)}")
+        
+        st.markdown("---")
+        
+        # Option 2: Upload CSV (your format)
+        uploaded_csv = st.file_uploader("Upload your CSV file", type=['csv'])
+        
+        if uploaded_csv:
+            try:
+                # Process CSV
+                df = pd.read_csv(uploaded_csv)
+                st.success(f"Loaded CSV with {len(df)} rows!")
+                
+                # Show preview
+                st.write("**CSV Preview:**")
+                st.dataframe(df.head())
+                
+                if st.button("Process CSV to Database"):
+                    processed_products = process_csv_data(df)
+                    if save_product_data(processed_products):
+                        st.success(f"Processed and saved {len(processed_products)} products!")
+                        st.rerun()
+                        
+            except Exception as e:
+                st.error(f"Error loading CSV file: {str(e)}")
         
         if st.button("Create Sample Data"):
             sample_data = create_sample_data()
