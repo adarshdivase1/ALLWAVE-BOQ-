@@ -28,7 +28,7 @@ class IntelligentBOQGenerator:
         if 'price' in self.df.columns:
             self.df['price'] = pd.to_numeric(self.df['price'], errors='coerce').fillna(0)
 
-        # FIX APPLIED HERE: Clean the use_case_tags column
+        # Clean the use_case_tags column
         if 'use_case_tags' in self.df.columns:
             self.df['use_case_tags'] = self.df['use_case_tags'].fillna('').astype(str)
 
@@ -245,7 +245,7 @@ class IntelligentBOQGenerator:
         # Filter by use case tags
         if 'use_case_tags' in filtered.columns:
             use_case_filter = filtered['use_case_tags'].str.contains(
-                room_type.replace('_', ' '), case=False, na=False
+                room_type.replace('_', ' '), case=False
             )
             if use_case_filter.any():
                 filtered = filtered[use_case_filter]
@@ -297,7 +297,8 @@ class IntelligentBOQGenerator:
         # Use case relevance scoring
         if 'use_case_tags' in scored.columns:
             room_type = self._determine_room_type(requirements)
-            use_case_scores = scored['use_case_tags'].str.count(room_type.replace('_', '|'), na=False) * 20
+            # FIX APPLIED HERE: Removed invalid 'na=False' parameter
+            use_case_scores = scored['use_case_tags'].str.count(room_type.replace('_', '|')) * 20
             scored['score'] += use_case_scores * 0.3
 
         # Brand diversity scoring
@@ -742,7 +743,7 @@ def main():
         "This app uses AI to create optimized Bills of Quantities for AV systems. "
         "Navigate using the options above."
     )
-    st.sidebar.markdown("**Version:** 2.0.4")
+    st.sidebar.markdown("**Version:** 2.0.5")
 
     # Run the selected page function
     pages[selected_page]()
