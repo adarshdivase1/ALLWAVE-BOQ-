@@ -7310,30 +7310,29 @@
     ],
     "compatibility_tags": []
   },
-[
-  {
-    "category": "Audio: DSP & Processing",
-    "brand": "Yamaha (MTX/QN)",
-    "name": "Yamaha (MTX/QN) YC-3843 Audio Processor",
-    "price": 3935.63,
-    "features": "Generated Model for Catalog Expansion",
-    "tier": "Standard",
-    "use_case_tags": [
-      "audio"
-    ],
-    "compatibility_tags": []
-  },
-[ 
-  {
-    "category": "Audio: DSP & Processing",
-    "brand": "Yamaha (MTX/QN)",
-    "name": "Yamaha (MTX/QN) QW-5806 Audio Processor",
-    "price": 4479.2,
-    "features": "Generated Model for Catalog Expansion",
-    "tier": "Standard",
-    "use_case_tags": [
-      "audio"
-    ],
-    "compatibility_tags": []
-  }
-]
+  [
+    {
+      "category": "Audio: DSP & Processing",
+      "brand": "Yamaha (MTX/QN)",
+      "name": "Yamaha (MTX/QN) YC-3843 Audio Processor",
+      "price": 3935.63,
+      "features": "Generated Model for Catalog Expansion",
+      "tier": "Standard",
+      "use_case_tags": [
+        "audio"
+      ],
+      "compatibility_tags": []
+    },
+    {
+      "category": "Audio: DSP & Processing",
+      "brand": "Yamaha (MTX/QN)",
+      "name": "Yamaha (MTX/QN) QW-5806 Audio Processor",
+      "price": 4479.2,
+      "features": "Generated Model for Catalog Expansion",
+      "tier": "Standard",
+      "use_case_tags": [
+        "audio"
+      ],
+      "compatibility_tags": []
+    }
+  ]
