@@ -1,0 +1,260 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-01-15",
+  "standards": {
+    "display_systems": {
+      "viewing_distance": {
+        "min_ratio": 6,
+        "max_ratio": 10,
+        "description": "Height to width ratio for optimal viewing",
+        "unit": "H:W"
+      },
+      "resolution_requirements": {
+        "4K": {
+          "min_screen_size": 55,
+          "max_viewing_distance": 8,
+          "unit": "feet"
+        },
+        "1080p": {
+          "min_screen_size": 32,
+          "max_viewing_distance": 12,
+          "unit": "feet"
+        }
+      },
+      "brightness_levels": {
+        "presentation": 300,
+        "conference": 200,
+        "training": 250,
+        "unit": "nits"
+      },
+      "mounting_standards": {
+        "wall_mount": "VESA compliant",
+        "ceiling_mount": "Earthquake resistant",
+        "floor_stand": "Anti-tip certified"
+      }
+    },
+    "audio_systems": {
+      "spl_requirements": {
+        "conference_room": 70,
+        "training_room": 75,
+        "auditorium": 85,
+        "background_noise": 35,
+        "unit": "dB"
+      },
+      "frequency_response": {
+        "min": 20,
+        "max": 20000,
+        "unit": "Hz",
+        "tolerance": "±3dB"
+      },
+      "coverage_patterns": {
+        "speech": "cardioid",
+        "music": "omnidirectional",
+        "presentation": "shotgun"
+      },
+      "acoustic_requirements": {
+        "rt60_target": 0.6,
+        "rt60_max": 1.2,
+        "rt60_min": 0.4,
+        "unit": "seconds"
+      }
+    },
+    "control_systems": {
+      "redundancy": {
+        "critical_systems": true,
+        "backup_power": true,
+        "dual_path_control": true
+      },
+      "response_time": {
+        "max_delay": 100,
+        "unit": "milliseconds"
+      },
+      "user_interface": {
+        "touch_panel_size": {
+          "min": 7,
+          "max": 21,
+          "unit": "inches"
+        },
+        "button_count": {
+          "max": 12,
+          "recommended": 8
+        }
+      },
+      "network_requirements": {
+        "bandwidth": {
+          "min": 100,
+          "unit": "Mbps"
+        },
+        "latency": {
+          "max": 50,
+          "unit": "ms"
+        }
+      }
+    },
+    "video_systems": {
+      "conferencing": {
+        "min_resolution": "1080p",
+        "frame_rate": 30,
+        "compression": "H.264",
+        "bandwidth_per_stream": {
+          "1080p": 2,
+          "4K": 8,
+          "unit": "Mbps"
+        }
+      },
+      "recording": {
+        "storage_format": "H.264/H.265",
+        "min_bitrate": 5,
+        "max_bitrate": 50,
+        "unit": "Mbps"
+      },
+      "streaming": {
+        "protocols": ["RTMP", "WebRTC", "SRT"],
+        "adaptive_bitrate": true,
+        "multi_stream": true
+      }
+    },
+    "cable_management": {
+      "standards": {
+        "structured_cabling": "TIA-568-C",
+        "fiber_optic": "TIA-568.3-D",
+        "coaxial": "RG-6/U",
+        "power": "NEC Article 725"
+      },
+      "categories": {
+        "cat5e": {
+          "max_distance": 100,
+          "bandwidth": 100,
+          "unit_distance": "meters",
+          "unit_bandwidth": "MHz"
+        },
+        "cat6": {
+          "max_distance": 100,
+          "bandwidth": 250,
+          "unit_distance": "meters",
+          "unit_bandwidth": "MHz"
+        },
+        "cat6a": {
+          "max_distance": 100,
+          "bandwidth": 500,
+          "unit_distance": "meters",
+          "unit_bandwidth": "MHz"
+        }
+      },
+      "installation": {
+        "bend_radius": "4x cable diameter",
+        "pull_tension": "25 lbf max",
+        "temperature_range": {
+          "min": -20,
+          "max": 60,
+          "unit": "Celsius"
+        }
+      }
+    },
+    "power_management": {
+      "ups_requirements": {
+        "runtime": {
+          "min": 15,
+          "recommended": 30,
+          "unit": "minutes"
+        },
+        "capacity": {
+          "load_factor": 0.8,
+          "growth_factor": 1.2
+        }
+      },
+      "power_conditioning": {
+        "voltage_regulation": "±5%",
+        "frequency_stability": "±0.1Hz",
+        "thd": "≤3%"
+      },
+      "circuit_protection": {
+        "dedicated_circuits": true,
+        "gfci_required": true,
+        "surge_protection": "Type 2 SPD"
+      }
+    },
+    "environmental": {
+      "temperature": {
+        "operating_min": 0,
+        "operating_max": 40,
+        "storage_min": -20,
+        "storage_max": 60,
+        "unit": "Celsius"
+      },
+      "humidity": {
+        "operating_min": 10,
+        "operating_max": 80,
+        "storage_min": 5,
+        "storage_max": 95,
+        "unit": "% RH"
+      },
+      "ventilation": {
+        "air_changes_per_hour": 4,
+        "equipment_clearance": {
+          "front": 36,
+          "rear": 30,
+          "sides": 6,
+          "unit": "inches"
+        }
+      }
+    },
+    "safety_standards": {
+      "electrical": {
+        "ul_listed": true,
+        "ce_marked": true,
+        "fcc_compliant": true
+      },
+      "fire_safety": {
+        "plenum_rated": "CMP",
+        "riser_rated": "CMR",
+        "general_purpose": "CM"
+      },
+      "seismic": {
+        "zone_4_compliant": true,
+        "mounting_hardware": "seismic rated"
+      }
+    }
+  },
+  "compliance_checklist": {
+    "design_phase": [
+      "Viewing distance calculations verified",
+      "Audio coverage analysis completed",
+      "Control system redundancy planned",
+      "Cable pathways designed",
+      "Power requirements calculated",
+      "Environmental conditions assessed"
+    ],
+    "installation_phase": [
+      "Cable installation per TIA standards",
+      "Equipment mounting verified",
+      "Power distribution tested",
+      "Grounding system verified",
+      "Safety systems functional"
+    ],
+    "commissioning_phase": [
+      "System performance verified",
+      "Audio levels measured",
+      "Video quality confirmed",
+      "Control functions tested",
+      "Documentation completed"
+    ]
+  },
+  "testing_procedures": {
+    "audio": {
+      "spl_measurement": "Use calibrated sound level meter",
+      "frequency_response": "Pink noise test signal",
+      "coverage_verification": "Grid pattern measurement"
+    },
+    "video": {
+      "resolution_test": "Test pattern verification",
+      "color_accuracy": "Color bar pattern",
+      "signal_integrity": "Eye pattern analysis"
+    },
+    "control": {
+      "response_time": "Automated timing tests",
+      "reliability": "24-hour stress test",
+      "user_interface": "Usability testing"
+    }
+  }
+}
