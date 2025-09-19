@@ -7310,6 +7310,7 @@
     ],
     "compatibility_tags": []
   },
+[
   {
     "category": "Audio: DSP & Processing",
     "brand": "Yamaha (MTX/QN)",
@@ -7329,8 +7330,9 @@
     "price": 4479.2,
     "features": "Generated Model for Catalog Expansion",
     "tier": "Standard",
-        "use_case_tags": [
+    "use_case_tags": [
       "audio"
     ],
     "compatibility_tags": []
   }
+]
