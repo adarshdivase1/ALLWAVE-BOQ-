@@ -1,0 +1,418 @@
+{
+  "sample_boqs": [
+    {
+      "id": "boq_001",
+      "project_name": "Corporate Conference Room AV Solution",
+      "client_name": "TechCorp Inc.",
+      "project_type": "Conference Room",
+      "room_dimensions": "20' x 15' x 10'",
+      "audience_size": 25,
+      "budget_range": "$50,000 - $100,000",
+      "requirements": ["Display Systems", "Audio Systems", "Control Systems", "Video Conferencing"],
+      "generated_date": "2024-01-15T10:30:00",
+      "items": [
+        {
+          "category": "display",
+          "description": "85\" 4K Interactive Display with Touch Capability",
+          "model_no": "DISP-85-4K-T",
+          "company": "DisplayTech Pro",
+          "quantity": 1,
+          "unit": "Each",
+          "unit_cost": 8500.00,
+          "total_cost": 8500.00,
+          "specifications": {
+            "resolution": "3840x2160",
+            "brightness": "400 nits",
+            "touch_points": "20",
+            "connectivity": "HDMI, USB-C, DisplayPort"
+          },
+          "compatibility": ["HDMI", "USB", "Ethernet", "Wireless"]
+        },
+        {
+          "category": "audio",
+          "description": "Ceiling-Mounted Speaker Array System",
+          "model_no": "SPKR-CEIL-8",
+          "company": "AudioPro Systems",
+          "quantity": 4,
+          "unit": "Each",
+          "unit_cost": 1200.00,
+          "total_cost": 4800.00,
+          "specifications": {
+            "frequency_response": "50Hz-20kHz",
+            "power": "80W RMS",
+            "coverage": "90° conical"
+          },
+          "compatibility": ["Amplifier", "DSP"]
+        },
+        {
+          "category": "audio",
+          "description": "Digital Signal Processor & Amplifier",
+          "model_no": "DSP-AMP-500",
+          "company": "AudioPro Systems",
+          "quantity": 1,
+          "unit": "Each",
+          "unit_cost": 3200.00,
+          "total_cost": 3200.00,
+          "specifications": {
+            "channels": "8 input, 8 output",
+            "power": "500W total",
+            "processing": "Digital EQ, Delay, Limiter"
+          },
+          "compatibility": ["Ethernet", "USB"]
+        },
+        {
+          "category": "audio",
+          "description": "Wireless Lapel Microphone System",
+          "model_no": "MIC-WIRELESS-LAPEL",
+          "company": "AudioPro Systems",
+          "quantity": 2,
+          "unit": "Each",
+          "unit_cost": 850.00,
+          "total_cost": 1700.00,
+          "specifications": {
+            "frequency": "UHF 500-950MHz",
+            "battery_life": "8 hours",
+            "range": "300 feet"
+          },
+          "compatibility": ["Wireless", "XLR"]
+        },
+        {
+          "category": "control",
+          "description": "Touch Panel Control System",
+          "model_no": "CTRL-TOUCH-10",
+          "company": "ControlTech Solutions",
+          "quantity": 1,
+          "unit": "Each",
+          "unit_cost": 2800.00,
+          "total_cost": 2800.00,
+          "specifications": {
+            "screen_size": "10.1 inches",
+            "resolution": "1280x800",
+            "connectivity": "Ethernet, Wi-Fi, Bluetooth"
+          },
+          "compatibility": ["Ethernet", "Wireless", "IR", "RS232"]
+        },
+        {
+          "category": "video",
+          "description": "PTZ Camera for Video Conferencing",
+          "model_no": "CAM-PTZ-4K",
+          "company": "VideoTech Pro",
+          "quantity": 1,
+          "unit": "Each",
+          "unit_cost": 4500.00,
+          "total_cost": 4500.00,
+          "specifications": {
+            "resolution": "4K@30fps",
+            "zoom": "20x optical",
+            "pan_tilt": "±170°/±90°",
+            "connectivity": "HDMI, USB 3.0, IP"
+          },
+          "compatibility": ["HDMI", "USB", "Ethernet", "IP"]
+        },
+        {
+          "category": "cable",
+          "description": "HDMI 2.1 Cable - 4K@60Hz Support",
+          "model_no": "CBL-HDMI21-15M",
+          "company": "CableTech",
+          "quantity": 5,
+          "unit": "Meter",
+          "unit_cost": 25.00,
+          "total_cost": 125.00,
+          "specifications": {
+            "length": "15 meters",
+            "bandwidth": "48Gbps",
+            "certification": "Premium High Speed"
+          },
+          "compatibility": ["HDMI"]
+        },
+        {
+          "category": "cable",
+          "description": "Cat6A Ethernet Cable",
+          "model_no": "CBL-CAT6A-50M",
+          "company": "CableTech",
+          "quantity": 10,
+          "unit": "Meter",
+          "unit_cost": 12.00,
+          "total_cost": 120.00,
+          "specifications": {
+            "category": "Cat6A",
+            "bandwidth": "500MHz",
+            "length": "50 meters total"
+          },
+          "compatibility": ["Ethernet"]
+        },
+        {
+          "category": "mounting",
+          "description": "Wall Mount for 85\" Display",
+          "model_no": "MNT-WALL-85",
+          "company": "MountTech",
+          "quantity": 1,
+          "unit": "Each",
+          "unit_cost": 450.00,
+          "total_cost": 450.00,
+          "specifications": {
+            "weight_capacity": "150 lbs",
+            "tilt": "-5° to +15°",
+            "vesa": "600x400mm"
+          },
+          "compatibility": ["VESA"]
+        }
+      ],
+      "total_cost": 26195.00,
+      "compliance_score": 92,
+      "recommendations": [
+        "Consider adding backup power solution for critical systems",
+        "Include regular maintenance schedule for optimal performance",
+        "Add acoustic treatment for better audio quality"
+      ],
+      "avixa_compliance": {
+        "display_standards": "Compliant",
+        "audio_coverage": "Optimal",
+        "control_integration": "Excellent",
+        "cable_management": "TIA-568 Compliant"
+      }
+    },
+    {
+      "id": "boq_002",
+      "project_name": "University Auditorium AV Upgrade",
+      "client_name": "State University",
+      "project_type": "Auditorium",
+      "room_dimensions": "80' x 60' x 25'",
+      "audience_size": 500,
+      "budget_range": "> $100,000",
+      "requirements": ["Display Systems", "Audio Systems", "Control Systems", "Lighting Control", "Streaming Solutions"],
+      "generated_date": "2024-01-20T14:15:00",
+      "items": [
+        {
+          "category": "display",
+          "description": "Large Venue Projector - 10,000 Lumens",
+          "model_no": "PROJ-VENUE-10K",
+          "company": "ProjectionMax",
+          "quantity": 2,
+          "unit": "Each",
+          "unit_cost": 25000.00,
+          "total_cost": 50000.00,
+          "specifications": {
+            "brightness": "10,000 ANSI lumens",
+            "resolution": "WUXGA (1920x1200)",
+            "throw_ratio": "1.39-2.09:1",
+            "lamp_life": "5000 hours"
+          },
+          "compatibility": ["HDMI", "DVI", "VGA", "HDBaseT"]
+        },
+        {
+          "category": "display",
+          "description": "Motorized Projection Screen - 20' x 12'",
+          "model_no": "SCR-MOT-240",
+          "company": "ScreenTech",
+          "quantity": 1,
+          "unit": "Each",
+          "unit_cost": 3500.00,
+          "total_cost": 3500.00,
+          "specifications": {
+            "size": "240 inches diagonal",
+            "aspect_ratio": "16:10",
+            "material": "Matt White XT1000V",
+            "control": "RF Remote, RS-232"
+          },
+          "compatibility": ["RS232", "RF"]
+        },
+        {
+          "category": "audio",
+          "description": "Line Array Speaker System",
+          "model_no": "LA-SPKR-MAIN",
+          "company": "ProAudio Elite",
+          "quantity": 8,
+          "unit": "Each",
+          "unit_cost": 4200.00,
+          "total_cost": 33600.00,
+          "specifications": {
+            "frequency_range": "45Hz-18kHz",
+            "max_spl": "135dB",
+            "coverage": "90°H x 10°V",
+            "power": "2000W"
+          },
+          "compatibility": ["Amplifier", "DSP", "Dante"]
+        },
+        {
+          "category": "audio",
+          "description": "Digital Mixing Console - 32 Channel",
+          "model_no": "MIX-DIGITAL-32",
+          "company": "ProAudio Elite",
+          "quantity": 1,
+          "unit": "Each",
+          "unit_cost": 8500.00,
+          "total_cost": 8500.00,
+          "specifications": {
+            "channels": "32 input, 16 output",
+            "processing": "48kHz/32-bit",
+            "effects": "Built-in reverb, EQ, compressor",
+            "connectivity": "Dante, MADI, USB"
+          },
+          "compatibility": ["Dante", "MADI", "USB", "Ethernet"]
+        },
+        {
+          "category": "control",
+          "description": "Enterprise Control Processor",
+          "model_no": "CTRL-ENT-PRO",
+          "company": "ControlTech Solutions",
+          "quantity": 1,
+          "unit": "Each",
+          "unit_cost": 12000.00,
+          "total_cost": 12000.00,
+          "specifications": {
+            "processing": "ARM Cortex-A72 Quad-core",
+            "memory": "4GB RAM, 32GB Storage",
+            "ports": "16 IR, 8 RS-232, 16 Relay",
+            "network": "Gigabit Ethernet"
+          },
+          "compatibility": ["Ethernet", "IR", "RS232", "Relay"]
+        },
+        {
+          "category": "video",
+          "description": "Multi-Camera Video Production System",
+          "model_no": "VID-PROD-4CAM",
+          "company": "StreamPro Systems",
+          "quantity": 1,
+          "unit": "Each",
+          "unit_cost": 15000.00,
+          "total_cost": 15000.00,
+          "specifications": {
+            "cameras": "4x PTZ 4K cameras",
+            "switcher": "4-input video switcher",
+            "streaming": "H.264/H.265 encoder",
+            "storage": "2TB SSD recording"
+          },
+          "compatibility": ["HDMI", "SDI", "IP", "USB"]
+        }
+      ],
+      "total_cost": 122600.00,
+      "compliance_score": 95,
+      "recommendations": [
+        "Include comprehensive training program for operators",
+        "Plan for future expansion capabilities",
+        "Consider redundant systems for critical components"
+      ],
+      "avixa_compliance": {
+        "display_standards": "Excellent",
+        "audio_coverage": "Full venue coverage achieved",
+        "control_integration": "Enterprise-grade",
+        "safety_standards": "Fully compliant"
+      }
+    },
+    {
+      "id": "boq_003",
+      "project_name": "Smart Classroom Technology Package",
+      "client_name": "Modern Learning Academy",
+      "project_type": "Classroom",
+      "room_dimensions": "30' x 25' x 12'",
+      "audience_size": 40,
+      "budget_range": "$10,000 - $50,000",
+      "requirements": ["Display Systems", "Audio Systems", "Control Systems", "Digital Signage"],
+      "generated_date": "2024-01-25T09:45:00",
+      "items": [
+        {
+          "category": "display",
+          "description": "Interactive Flat Panel Display - 75\"",
+          "model_no": "IFP-75-EDU",
+          "company": "EduTech Displays",
+          "quantity": 1,
+          "unit": "Each",
+          "unit_cost": 4500.00,
+          "total_cost": 4500.00,
+          "specifications": {
+            "size": "75 inches",
+            "resolution": "4K UHD",
+            "touch_points": "20-point multi-touch",
+            "android": "Built-in Android 11"
+          },
+          "compatibility": ["HDMI", "USB", "Wi-Fi", "Bluetooth"]
+        },
+        {
+          "category": "audio",
+          "description": "Classroom Audio Enhancement System",
+          "model_no": "AUD-CLASS-ENH",
+          "company": "ClassroomSound",
+          "quantity": 1,
+          "unit": "Each",
+          "unit_cost": 2800.00,
+          "total_cost": 2800.00,
+          "specifications": {
+            "speakers": "4 ceiling speakers",
+            "amplifier": "100W digital amplifier",
+            "microphone": "Wireless teacher mic included"
+          },
+          "compatibility": ["Wireless", "Bluetooth", "3.5mm"]
+        },
+        {
+          "category": "control",
+          "description": "Simple Room Control Panel",
+          "model_no": "CTRL-ROOM-SIMPLE",
+          "company": "EasyControl",
+          "quantity": 1,
+          "unit": "Each",
+          "unit_cost": 1200.00,
+          "total_cost": 1200.00,
+          "specifications": {
+            "interface": "7-inch touchscreen",
+            "functions": "Display control, audio, lighting",
+            "mounting": "Wall-mounted"
+          },
+          "compatibility": ["IR", "RS232", "IP"]
+        }
+      ],
+      "total_cost": 8500.00,
+      "compliance_score": 88,
+      "recommendations": [
+        "Add document camera for analog content sharing",
+        "Consider wireless presentation solution",
+        "Include student response system for engagement"
+      ],
+      "avixa_compliance": {
+        "display_standards": "Education-optimized",
+        "audio_coverage": "Classroom-appropriate",
+        "control_integration": "User-friendly design"
+      }
+    }
+  ],
+  "categories_reference": {
+    "display": {
+      "description": "Visual display equipment including monitors, projectors, screens",
+      "typical_products": ["Interactive displays", "Projectors", "LED walls", "Monitors", "Screens"]
+    },
+    "audio": {
+      "description": "Audio equipment for sound reinforcement and processing",
+      "typical_products": ["Speakers", "Microphones", "Amplifiers", "Mixers", "DSP units"]
+    },
+    "control": {
+      "description": "Control systems for managing AV equipment",
+      "typical_products": ["Control processors", "Touch panels", "Keypads", "Interfaces"]
+    },
+    "video": {
+      "description": "Video capture, processing, and distribution equipment",
+      "typical_products": ["Cameras", "Video switchers", "Scalers", "Streaming devices"]
+    },
+    "cable": {
+      "description": "Cables and connectivity solutions",
+      "typical_products": ["HDMI cables", "Ethernet cables", "Audio cables", "Adapters"]
+    },
+    "mounting": {
+      "description": "Mounting and installation hardware",
+      "typical_products": ["Display mounts", "Speaker brackets", "Equipment racks", "Ceiling mounts"]
+    }
+  },
+  "pricing_guidelines": {
+    "display": {
+      "budget_range": "$500 - $50,000",
+      "factors": ["Size", "Resolution", "Brightness", "Interactivity"]
+    },
+    "audio": {
+      "budget_range": "$100 - $20,000",
+      "factors": ["Power", "Frequency response", "Brand", "Professional features"]
+    },
+    "control": {
+      "budget_range": "$300 - $15,000",
+      "factors": ["Complexity", "I/O ports", "Processing power", "Interface type"]
+    }
+  }
+}
