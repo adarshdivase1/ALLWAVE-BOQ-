@@ -5,6 +5,7 @@ import os
 from datetime import datetime
 import plotly.express as px
 import plotly.graph_objects as go
+from utils.csv_processor import CSVProcessor
 
 # Page config
 st.set_page_config(
@@ -311,10 +312,23 @@ def show_product_database_page():
                 st.dataframe(df.head())
                 
                 if st.button("Process CSV to Database"):
-                    processed_products = process_csv_data(df)
-                    if save_product_data(processed_products):
-                        st.success(f"Processed and saved {len(processed_products)} products!")
-                        st.rerun()
+                    processor = CSVProcessor()
+                    processed_products = processor.process_csv_dataframe(df)
+                    
+                    if processed_products:
+                        # Show processing summary
+                        summary = processor.get_processing_summary(processed_products)
+                        st.write(f"**Processing Summary:**")
+                        st.write(f"- Total products: {summary['total_products']}")
+                        st.write(f"- Categories: {', '.join(summary['categories'].keys())}")
+                        st.write(f"- Price range: ${summary['price_stats']['min_price']:.2f} - ${summary['price_stats']['max_price']:.2f}")
+                        
+                        # Save to database
+                        if save_product_data(processed_products):
+                            st.success(f"Successfully processed and saved {len(processed_products)} products!")
+                            st.rerun()
+                    else:
+                        st.error("No products were processed. Check your CSV format.")
                         
             except Exception as e:
                 st.error(f"Error loading CSV file: {str(e)}")
