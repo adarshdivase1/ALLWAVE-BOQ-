@@ -24,6 +24,10 @@ class IntelligentBOQGenerator:
         self.products_data = products_data
         self.df = pd.DataFrame(products_data)
 
+        # FIX APPLIED HERE: Ensure 'price' column is numeric upon initialization
+        if 'price' in self.df.columns:
+            self.df['price'] = pd.to_numeric(self.df['price'], errors='coerce').fillna(0)
+
         # Intelligent category mapping based on your data
         self.category_keywords = {
             'display': ['display', 'projector', 'monitor', 'screen', 'led', 'lcd'],
@@ -80,8 +84,7 @@ class IntelligentBOQGenerator:
         budget_constraints = self._get_budget_constraints(requirements)
 
         selected_products = []
-        total_budget_used = 0
-
+        
         # Smart product selection for each category
         for category, needs in equipment_needs.items():
             if needs['required']:
@@ -91,7 +94,6 @@ class IntelligentBOQGenerator:
                 for product in products:
                     boq_item = self._create_smart_boq_item(product, needs, requirements)
                     selected_products.append(boq_item)
-                    total_budget_used += boq_item['Total Cost']
 
         # Add complementary products and services
         selected_products.extend(self._add_complementary_items(requirements, selected_products))
@@ -575,6 +577,10 @@ def show_database_page():
         return
 
     df = pd.DataFrame(products_data)
+    # Clean price data for this page's view
+    if 'price' in df.columns:
+        df['price'] = pd.to_numeric(df['price'], errors='coerce').fillna(0)
+
     tab1, tab2, tab3 = st.tabs(["📋 View & Filter Data", "➕ Add/Upload Products", "📥 Export Data"])
 
     with tab1:
@@ -644,7 +650,6 @@ def show_database_page():
                     st.success("✅ Data imported successfully!")
                     st.rerun()
 
-    # CORRECTED BLOCK: Changed 'with tab4:' to 'with tab3:'
     with tab3:
         st.subheader("Export Product Data")
         col1, col2 = st.columns(2)
@@ -669,6 +674,9 @@ def show_analytics_page():
         return
         
     df = pd.DataFrame(products_data)
+    # Clean price data for analytics
+    if 'price' in df.columns:
+        df['price'] = pd.to_numeric(df['price'], errors='coerce').fillna(0)
 
     tab1, tab2, tab3 = st.tabs(["📊 Category Analysis", "💰 Price Analysis", "🏷️ Brand & Tier Analysis"])
 
@@ -725,7 +733,7 @@ def main():
         "This app uses AI to create optimized Bills of Quantities for AV systems. "
         "Navigate using the options above."
     )
-    st.sidebar.markdown("**Version:** 2.0.2")
+    st.sidebar.markdown("**Version:** 2.0.3")
 
     # Run the selected page function
     pages[selected_page]()
