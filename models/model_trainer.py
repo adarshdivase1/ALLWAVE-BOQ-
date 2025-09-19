@@ -130,8 +130,8 @@ class ModelTrainer:
             'model_type': 'category_classification',
             'accuracy': accuracy,
             'classification_report': classification_report(y_test, y_pred, 
-                                                         target_names=label_encoder.classes_,
-                                                         output_dict=True)
+                                                             target_names=label_encoder.classes_,
+                                                             output_dict=True)
         }
     
     def train_compatibility_model(self, products_data: List[Dict[str, Any]]) -> Dict[str, Any]:
@@ -149,8 +149,8 @@ class ModelTrainer:
         
         # Create features for compatibility prediction
         feature_columns = ['cat1_display', 'cat1_audio', 'cat1_control', 'cat1_video',
-                          'cat2_display', 'cat2_audio', 'cat2_control', 'cat2_video',
-                          'common_interfaces', 'brand_match']
+                           'cat2_display', 'cat2_audio', 'cat2_control', 'cat2_video',
+                           'common_interfaces', 'brand_match']
         
         X = df_compat[feature_columns]
         y = df_compat['compatible']
@@ -224,8 +224,8 @@ class ModelTrainer:
             'features': [self._create_price_features(row) for _, row in price_data.iterrows()],
             'targets': price_data['price'].tolist(),
             'feature_names': ['desc_length', 'spec_count', 'compat_count', 'feature_count',
-                            'is_display', 'is_audio', 'is_control', 'is_video', 
-                            'is_premium', 'is_professional']
+                              'is_display', 'is_audio', 'is_control', 'is_video', 
+                              'is_premium', 'is_professional']
         }
     
     def _prepare_category_data(self, df: pd.DataFrame) -> Dict[str, Any]:
@@ -268,7 +268,7 @@ class ModelTrainer:
                     'cat2_control': 1 if product2['category'] == 'control' else 0,
                     'cat2_video': 1 if product2['category'] == 'video' else 0,
                     'common_interfaces': len(set(product1.get('compatibility', [])) & 
-                                           set(product2.get('compatibility', []))),
+                                             set(product2.get('compatibility', []))),
                     'brand_match': 1 if product1.get('brand') == product2.get('brand') else 0,
                     'compatible': self._determine_compatibility(product1, product2)
                 }
@@ -284,8 +284,6 @@ class ModelTrainer:
         
         return pairs
     
-    def _determine_compatibility(self, product1: Dict[str, Any], product2: Dict[str, Any]) -> int:
-        """Determine if two products are compatible (simplified logic)"""
     def _determine_compatibility(self, product1: Dict[str, Any], product2: Dict[str, Any]) -> int:
         """Determine if two products are compatible (simplified logic)"""
         cat1 = product1.get('category', '')
@@ -324,7 +322,7 @@ class ModelTrainer:
         
         # Default to not compatible
         return 0
-    
+
     def save_models(self, filepath: str) -> None:
         """Save all trained models to disk"""
         model_data = {
@@ -346,7 +344,7 @@ class ModelTrainer:
                 # Save embeddings separately
                 joblib.dump(model['embeddings'], f"{filepath}_{name}_embeddings.pkl")
             else:
-                model_data['models'][name] = joblib.dump(model, f"{filepath}_{name}_model.pkl")
+                joblib.dump(model, f"{filepath}_{name}_model.pkl")
         
         # Save vectorizers
         for name, vectorizer in self.vectorizers.items():
@@ -360,7 +358,20 @@ class ModelTrainer:
         for name, encoder in self.label_encoders.items():
             joblib.dump(encoder, f"{filepath}_{name}_encoder.pkl")
         
-        # Save metadata
+        # Save metadata by updating the 'models' section with file paths
+        for name in self.models:
+             if name != 'recommendation':
+                model_data['models'][name] = f"{filepath}_{name}_model.pkl"
+
+        for name in self.vectorizers:
+            model_data['vectorizers'][name] = f"{filepath}_{name}_vectorizer.pkl"
+        
+        for name in self.scalers:
+            model_data['scalers'][name] = f"{filepath}_{name}_scaler.pkl"
+            
+        for name in self.label_encoders:
+            model_data['label_encoders'][name] = f"{filepath}_{name}_encoder.pkl"
+
         with open(f"{filepath}_metadata.json", 'w') as f:
             json.dump(model_data, f, indent=2)
         
@@ -374,29 +385,29 @@ class ModelTrainer:
                 model_data = json.load(f)
             
             # Load models
-            for name in model_data['models']:
+            for name, model_info in model_data['models'].items():
                 if name == 'recommendation':
                     # Load recommendation model components
                     embeddings = joblib.load(f"{filepath}_{name}_embeddings.pkl")
                     self.models[name] = {
                         'embeddings': embeddings,
-                        'method': model_data['models'][name]['method'],
-                        'products_index': model_data['models'][name]['products_index']
+                        'method': model_info['method'],
+                        'products_index': model_info['products_index']
                     }
                 else:
-                    self.models[name] = joblib.load(f"{filepath}_{name}_model.pkl")
+                    self.models[name] = joblib.load(model_info) # model_info is the path
             
-            # Load vectorizers
-            for name in model_data['vectorizers']:
-                self.vectorizers[name] = joblib.load(f"{filepath}_{name}_vectorizer.pkl")
+            # Load vectorizers            
+            for name, path in model_data['vectorizers'].items():
+                self.vectorizers[name] = joblib.load(path)
             
             # Load scalers  
-            for name in model_data['scalers']:
-                self.scalers[name] = joblib.load(f"{filepath}_{name}_scaler.pkl")
+            for name, path in model_data['scalers'].items():
+                self.scalers[name] = joblib.load(path)
             
             # Load label encoders
-            for name in model_data['label_encoders']:
-                self.label_encoders[name] = joblib.load(f"{filepath}_{name}_encoder.pkl")
+            for name, path in model_data['label_encoders'].items():
+                self.label_encoders[name] = joblib.load(path)
             
             self.logger.info(f"Models loaded from {filepath}")
             
@@ -480,8 +491,8 @@ class ModelTrainer:
             # Fall back to rule-based system
             return float(self._determine_compatibility(product1, product2))
         
-        model_info = self.models['compatibility']
-        if isinstance(model_info, dict) and model_info.get('method') == 'rule_based':
+        model_info = self.models.get('compatibility_method', 'ml_model') # Check for a method flag
+        if model_info == 'rule_based':
             return float(self._determine_compatibility(product1, product2))
         
         # Use ML model
@@ -495,13 +506,13 @@ class ModelTrainer:
             'cat2_control': 1 if product2['category'] == 'control' else 0,
             'cat2_video': 1 if product2['category'] == 'video' else 0,
             'common_interfaces': len(set(product1.get('compatibility', [])) & 
-                                   set(product2.get('compatibility', []))),
+                                     set(product2.get('compatibility', []))),
             'brand_match': 1 if product1.get('brand') == product2.get('brand') else 0,
         }
         
         feature_columns = ['cat1_display', 'cat1_audio', 'cat1_control', 'cat1_video',
-                          'cat2_display', 'cat2_audio', 'cat2_control', 'cat2_video',
-                          'common_interfaces', 'brand_match']
+                           'cat2_display', 'cat2_audio', 'cat2_control', 'cat2_video',
+                           'common_interfaces', 'brand_match']
         
         X = np.array([[features[col] for col in feature_columns]])
         
@@ -509,5 +520,3 @@ class ModelTrainer:
         prediction = model.predict_proba(X)[0][1]  # Probability of compatibility
         
         return prediction
-
-        # Rule-based compatibility determination
