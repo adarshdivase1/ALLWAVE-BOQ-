@@ -24,9 +24,13 @@ class IntelligentBOQGenerator:
         self.products_data = products_data
         self.df = pd.DataFrame(products_data)
 
-        # FIX APPLIED HERE: Ensure 'price' column is numeric upon initialization
+        # Clean the price column
         if 'price' in self.df.columns:
             self.df['price'] = pd.to_numeric(self.df['price'], errors='coerce').fillna(0)
+
+        # FIX APPLIED HERE: Clean the use_case_tags column
+        if 'use_case_tags' in self.df.columns:
+            self.df['use_case_tags'] = self.df['use_case_tags'].fillna('').astype(str)
 
         # Intelligent category mapping based on your data
         self.category_keywords = {
@@ -74,7 +78,7 @@ class IntelligentBOQGenerator:
         if 'use_case_tags' in self.df.columns:
             for tags in self.df['use_case_tags'].dropna():
                 if isinstance(tags, str):
-                    use_cases.update([tag.strip() for tag in tags.split(',')])
+                    use_cases.update([tag.strip() for tag in tags.split(',') if tag.strip()])
         return list(use_cases)
 
     def generate_smart_boq(self, requirements):
@@ -293,7 +297,7 @@ class IntelligentBOQGenerator:
         # Use case relevance scoring
         if 'use_case_tags' in scored.columns:
             room_type = self._determine_room_type(requirements)
-            use_case_scores = scored['use_case_tags'].str.count(room_type.replace('_', '|'), na=0) * 20
+            use_case_scores = scored['use_case_tags'].str.count(room_type.replace('_', '|'), na=False) * 20
             scored['score'] += use_case_scores * 0.3
 
         # Brand diversity scoring
@@ -304,7 +308,7 @@ class IntelligentBOQGenerator:
 
         # Feature richness scoring
         if 'features' in scored.columns:
-            feature_scores = scored['features'].str.len().fillna(0) / 10
+            feature_scores = scored['features'].fillna('').astype(str).str.len() / 10
             scored['score'] += feature_scores.clip(0, 20) * 0.1
 
         return scored.sort_values('score', ascending=False)
@@ -577,9 +581,12 @@ def show_database_page():
         return
 
     df = pd.DataFrame(products_data)
-    # Clean price data for this page's view
+    # Clean data for this page's view
     if 'price' in df.columns:
         df['price'] = pd.to_numeric(df['price'], errors='coerce').fillna(0)
+    if 'use_case_tags' in df.columns:
+        df['use_case_tags'] = df['use_case_tags'].fillna('').astype(str)
+
 
     tab1, tab2, tab3 = st.tabs(["📋 View & Filter Data", "➕ Add/Upload Products", "📥 Export Data"])
 
@@ -614,7 +621,7 @@ def show_database_page():
             with col1:
                 new_name = st.text_input("Product Name*")
                 new_brand = st.text_input("Brand*")
-                new_category = st.selectbox("Category*", df['category'].unique().tolist())
+                new_category = st.selectbox("Category*", sorted(df['category'].unique().tolist()))
             with col2:
                 new_price = st.number_input("Price ($)*", min_value=0.0, step=1.00, format="%.2f")
                 new_tier = st.selectbox("Tier*", ['Economy', 'Standard', 'Premium'])
@@ -674,9 +681,11 @@ def show_analytics_page():
         return
         
     df = pd.DataFrame(products_data)
-    # Clean price data for analytics
+    # Clean data for analytics
     if 'price' in df.columns:
         df['price'] = pd.to_numeric(df['price'], errors='coerce').fillna(0)
+    if 'use_case_tags' in df.columns:
+        df['use_case_tags'] = df['use_case_tags'].fillna('').astype(str)
 
     tab1, tab2, tab3 = st.tabs(["📊 Category Analysis", "💰 Price Analysis", "🏷️ Brand & Tier Analysis"])
 
@@ -733,7 +742,7 @@ def main():
         "This app uses AI to create optimized Bills of Quantities for AV systems. "
         "Navigate using the options above."
     )
-    st.sidebar.markdown("**Version:** 2.0.3")
+    st.sidebar.markdown("**Version:** 2.0.4")
 
     # Run the selected page function
     pages[selected_page]()
