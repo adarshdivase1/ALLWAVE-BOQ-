@@ -6,235 +6,418 @@ from datetime import datetime
 import plotly.express as px
 import plotly.graph_objects as go
 
-from utils.excel_processor import ExcelProcessor
-from utils.boq_generator import BOQGenerator
-from utils.avixa_compliance import AVIXACompliance
-from models.boq_model import BOQModel
-from components.ui_components import UIComponents
-from components.report_generator import ReportGenerator
-
 # Page config
 st.set_page_config(
-    page_title="AI-Powered BOQ Generator",
+    page_title="BOQ Generator",
     page_icon="📊",
-    layout="wide",
-    initial_sidebar_state="expanded"
+    layout="wide"
 )
 
+class SimpleBOQGenerator:
+    def __init__(self, products_data):
+        self.products_data = products_data
+        
+    def generate_boq(self, requirements):
+        """Generate BOQ based on project requirements"""
+        selected_products = []
+        
+        # Map requirements to categories
+        category_mapping = {
+            'Display Systems': ['display'],
+            'Audio Systems': ['audio'], 
+            'Control Systems': ['control'],
+            'Video Conferencing': ['video', 'audio'],
+            'Digital Signage': ['display', 'control'],
+            'Lighting Control': ['control'],
+            'Streaming Solutions': ['video']
+        }
+        
+        required_categories = set()
+        for req in requirements['requirements']:
+            if req in category_mapping:
+                required_categories.update(category_mapping[req])
+        
+        # Always add cables for any AV system
+        required_categories.add('cable')
+        
+        # Select products for each category
+        for category in required_categories:
+            category_products = [p for p in self.products_data if p.get('category') == category]
+            
+            if category_products:
+                # Simple selection: pick products based on price range
+                budget_max = self._get_budget_max(requirements['budget_range'])
+                suitable_products = [p for p in category_products if p.get('price', 0) <= budget_max * 0.3]
+                
+                if suitable_products:
+                    # Select top 2 products for the category
+                    selected = suitable_products[:2]
+                    
+                    for product in selected:
+                        quantity = self._calculate_quantity(category, requirements['audience_size'])
+                        unit_cost = product.get('price', 0)
+                        
+                        boq_item = {
+                            'category': category.title(),
+                            'description': product.get('description', 'N/A'),
+                            'model_no': product.get('model_no', 'N/A'),
+                            'company': product.get('company', 'N/A'),
+                            'quantity': quantity,
+                            'unit': 'Each' if category != 'cable' else 'Meter',
+                            'unit_cost': unit_cost,
+                            'total_cost': quantity * unit_cost
+                        }
+                        selected_products.append(boq_item)
+        
+        total_cost = sum(item['total_cost'] for item in selected_products)
+        
+        return {
+            'project_name': requirements['project_name'],
+            'client_name': requirements['client_name'],
+            'project_type': requirements['project_type'],
+            'generated_date': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+            'items': selected_products,
+            'total_cost': total_cost,
+            'item_count': len(selected_products)
+        }
+    
+    def _get_budget_max(self, budget_range):
+        budget_map = {
+            "< $10,000": 10000,
+            "$10,000 - $50,000": 50000,
+            "$50,000 - $100,000": 100000,
+            "> $100,000": 200000
+        }
+        return budget_map.get(budget_range, 50000)
+    
+    def _calculate_quantity(self, category, audience_size):
+        quantity_map = {
+            'display': max(1, audience_size // 50),
+            'audio': max(2, audience_size // 20),
+            'control': 1,
+            'video': max(1, audience_size // 30),
+            'cable': max(5, audience_size // 10),
+            'mounting': max(1, audience_size // 50)
+        }
+        return quantity_map.get(category, 1)
+
+def load_product_data():
+    """Load product data from JSON file"""
+    try:
+        if os.path.exists('data/processed_products.json'):
+            with open('data/processed_products.json', 'r') as f:
+                return json.load(f)
+        else:
+            return []
+    except Exception as e:
+        st.error(f"Error loading product data: {str(e)}")
+        return []
+
+def save_product_data(data):
+    """Save product data to JSON file"""
+    try:
+        os.makedirs('data', exist_ok=True)
+        with open('data/processed_products.json', 'w') as f:
+            json.dump(data, f, indent=2)
+        return True
+    except Exception as e:
+        st.error(f"Error saving product data: {str(e)}")
+        return False
+
+def create_sample_data():
+    """Create sample product data for testing"""
+    sample_products = [
+        {
+            "company": "DisplayTech Pro",
+            "model_no": "DTP-75-4K",
+            "description": "75\" 4K Interactive Display",
+            "category": "display",
+            "price": 4500.00,
+            "specifications": {"resolution": "4K", "size": "75\""},
+            "compatibility": ["HDMI", "USB"]
+        },
+        {
+            "company": "AudioPro Systems", 
+            "model_no": "APS-SPKR-100",
+            "description": "Ceiling Speaker 100W",
+            "category": "audio",
+            "price": 450.00,
+            "specifications": {"power": "100W", "frequency": "50Hz-20kHz"},
+            "compatibility": ["Amplifier"]
+        },
+        {
+            "company": "ControlTech",
+            "model_no": "CT-TOUCH-10",
+            "description": "10\" Touch Control Panel",
+            "category": "control", 
+            "price": 1200.00,
+            "specifications": {"size": "10\"", "connectivity": "Ethernet"},
+            "compatibility": ["Ethernet", "IR"]
+        },
+        {
+            "company": "CableTech",
+            "model_no": "CBL-HDMI-15",
+            "description": "HDMI Cable 15m",
+            "category": "cable",
+            "price": 25.00,
+            "specifications": {"length": "15m", "type": "HDMI 2.1"},
+            "compatibility": ["HDMI"]
+        }
+    ]
+    return sample_products
+
 def main():
-    st.title("🚀 AI-Powered BOQ Generator for AV Solutions")
-    st.markdown("Generate professional Bills of Quantities compliant with AVIXA guidelines")
+    st.title("🚀 Simple BOQ Generator")
+    st.markdown("Generate Bills of Quantities from your product database")
     
     # Sidebar
     with st.sidebar:
         st.header("Navigation")
         page = st.selectbox("Choose a page", [
-            "Home", 
-            "Data Processing", 
-            "BOQ Generation", 
-            "Model Training",
+            "BOQ Generator",
+            "Product Database", 
             "Analytics"
         ])
     
-    if page == "Home":
-        show_home_page()
-    elif page == "Data Processing":
-        show_data_processing_page()
-    elif page == "BOQ Generation":
-        show_boq_generation_page()
-    elif page == "Model Training":
-        show_model_training_page()
+    if page == "Product Database":
+        show_product_database_page()
     elif page == "Analytics":
         show_analytics_page()
+    else:
+        show_boq_generator_page()
 
-def show_home_page():
-    col1, col2 = st.columns([2, 1])
+def show_product_database_page():
+    st.header("📁 Product Database Management")
     
-    with col1:
-        st.markdown("""
-        ## Welcome to the AI-Powered BOQ Generator
-        
-        This application helps AV solution companies generate accurate and compliant 
-        Bills of Quantities using advanced machine learning algorithms.
-        
-        ### Features:
-        - 🤖 AI-powered product recommendations
-        - 📋 AVIXA guidelines compliance
-        - 📊 Professional report generation
-        - 🔍 Smart product search and matching
-        - 📈 Cost optimization suggestions
-        """)
-    
-    with col2:
-        st.info("""
-        **Quick Start:**
-        1. Process your Excel data
-        2. Train the AI model
-        3. Generate BOQs
-        4. Download reports
-        """)
-
-def show_data_processing_page():
-    st.header("📁 Data Processing")
-    
-    uploaded_file = st.file_uploader(
-        "Upload your Excel file with product data",
-        type=['xlsx', 'xls'],
-        help="Upload the Excel file containing 57 sheets with company data"
-    )
-    
-    if uploaded_file:
-        processor = ExcelProcessor()
-        
-        with st.spinner("Processing Excel file..."):
-            try:
-                processed_data = processor.process_excel(uploaded_file)
-                st.success(f"Successfully processed {len(processed_data)} products!")
-                
-                # Show preview
-                st.subheader("Data Preview")
-                df = pd.DataFrame(processed_data[:100])  # Show first 100 rows
-                st.dataframe(df)
-                
-                # Save processed data
-                if st.button("Save Processed Data"):
-                    processor.save_to_json(processed_data, "data/processed_products.json")
-                    st.success("Data saved successfully!")
-                    
-            except Exception as e:
-                st.error(f"Error processing file: {str(e)}")
-
-def show_boq_generation_page():
-    st.header("📊 BOQ Generation")
-    
-    # Load processed data
-    try:
-        with open("data/processed_products.json", 'r') as f:
-            products_data = json.load(f)
-        
-        boq_generator = BOQGenerator(products_data)
-        
-        col1, col2 = st.columns([1, 1])
-        
-        with col1:
-            st.subheader("Project Details")
-            project_name = st.text_input("Project Name")
-            client_name = st.text_input("Client Name")
-            project_type = st.selectbox("Project Type", [
-                "Conference Room", "Auditorium", "Classroom", 
-                "Control Room", "Retail Space", "Corporate Office"
-            ])
-            room_dimensions = st.text_input("Room Dimensions (L x W x H)")
-            budget_range = st.selectbox("Budget Range", [
-                "< $10,000", "$10,000 - $50,000", "$50,000 - $100,000", "> $100,000"
-            ])
-        
-        with col2:
-            st.subheader("Requirements")
-            requirements = st.multiselect("Select Requirements", [
-                "Display Systems", "Audio Systems", "Control Systems",
-                "Video Conferencing", "Digital Signage", "Lighting Control",
-                "Room Scheduling", "Streaming Solutions"
-            ])
-            
-            audience_size = st.number_input("Expected Audience Size", min_value=1, value=20)
-            special_requirements = st.text_area("Special Requirements")
-        
-        if st.button("Generate BOQ", type="primary"):
-            if project_name and client_name and requirements:
-                with st.spinner("Generating BOQ using AI..."):
-                    boq_data = boq_generator.generate_boq({
-                        'project_name': project_name,
-                        'client_name': client_name,
-                        'project_type': project_type,
-                        'requirements': requirements,
-                        'audience_size': audience_size,
-                        'budget_range': budget_range,
-                        'special_requirements': special_requirements
-                    })
-                    
-                    st.success("BOQ Generated Successfully!")
-                    
-                    # Display BOQ
-                    st.subheader("Generated BOQ")
-                    df_boq = pd.DataFrame(boq_data['items'])
-                    st.dataframe(df_boq)
-                    
-                    # Summary
-                    col1, col2, col3 = st.columns(3)
-                    with col1:
-                        st.metric("Total Items", len(boq_data['items']))
-                    with col2:
-                        st.metric("Total Cost", f"${boq_data['total_cost']:,.2f}")
-                    with col3:
-                        st.metric("AVIXA Compliance", f"{boq_data['compliance_score']}%")
-                    
-                    # Download options
-                    report_generator = ReportGenerator()
-                    pdf_data = report_generator.generate_pdf_report(boq_data)
-                    st.download_button(
-                        "Download PDF Report",
-                        pdf_data,
-                        f"BOQ_{project_name}_{datetime.now().strftime('%Y%m%d')}.pdf",
-                        "application/pdf"
-                    )
-            else:
-                st.warning("Please fill in all required fields")
-    
-    except FileNotFoundError:
-        st.warning("Please process your data first in the Data Processing page")
-
-def show_model_training_page():
-    st.header("🤖 Model Training")
-    
-    col1, col2 = st.columns([1, 1])
-    
-    with col1:
-        st.subheader("Training Configuration")
-        model_type = st.selectbox("Model Type", [
-            "Product Recommendation",
-            "Price Prediction",
-            "Compatibility Checker",
-            "Compliance Validator"
-        ])
-        
-        training_epochs = st.slider("Training Epochs", 1, 100, 10)
-        learning_rate = st.select_slider("Learning Rate", 
-            options=[0.001, 0.01, 0.1], value=0.01)
-        
-        if st.button("Start Training"):
-            model = BOQModel()
-            with st.spinner("Training model..."):
-                progress_bar = st.progress(0)
-                for i in range(training_epochs):
-                    # Simulate training progress
-                    progress_bar.progress((i + 1) / training_epochs)
-                    
-                st.success("Model trained successfully!")
-    
-    with col2:
-        st.subheader("Model Performance")
-        # Show dummy metrics
-        st.metric("Accuracy", "94.2%", "2.1%")
-        st.metric("Precision", "91.8%", "1.5%")
-        st.metric("Recall", "89.3%", "0.8%")
-
-def show_analytics_page():
-    st.header("📈 Analytics Dashboard")
-    
-    # Dummy data for visualization
-    categories = ['Display', 'Audio', 'Control', 'Video Conf', 'Lighting']
-    values = [25, 20, 15, 25, 15]
+    # Load existing data
+    products_data = load_product_data()
     
     col1, col2 = st.columns(2)
     
     with col1:
-        fig_pie = px.pie(values=values, names=categories, title="Product Category Distribution")
-        st.plotly_chart(fig_pie, use_container_width=True)
+        st.subheader("Upload Product Data")
+        uploaded_file = st.file_uploader("Upload processed_products.json", type=['json'])
+        
+        if uploaded_file:
+            try:
+                new_products = json.load(uploaded_file)
+                st.success(f"Loaded {len(new_products)} products from file!")
+                
+                if st.button("Save to Database"):
+                    if save_product_data(new_products):
+                        st.success("Data saved successfully!")
+                        st.rerun()
+                        
+            except Exception as e:
+                st.error(f"Error loading file: {str(e)}")
+        
+        if st.button("Create Sample Data"):
+            sample_data = create_sample_data()
+            if save_product_data(sample_data):
+                st.success("Sample data created!")
+                st.rerun()
     
     with col2:
-        fig_bar = px.bar(x=categories, y=values, title="Usage by Category")
+        st.subheader("Database Status")
+        if products_data:
+            st.success(f"✅ {len(products_data)} products in database")
+            
+            # Category breakdown
+            if products_data:
+                categories = {}
+                for product in products_data:
+                    cat = product.get('category', 'unknown')
+                    categories[cat] = categories.get(cat, 0) + 1
+                
+                st.write("**Categories:**")
+                for cat, count in categories.items():
+                    st.write(f"- {cat.title()}: {count} products")
+        else:
+            st.warning("No products in database")
+    
+    # Show product data
+    if products_data:
+        st.subheader("Product Data Preview")
+        df = pd.DataFrame(products_data)
+        st.dataframe(df, use_container_width=True)
+
+def show_boq_generator_page():
+    st.header("📊 BOQ Generation")
+    
+    # Load product data
+    products_data = load_product_data()
+    
+    if not products_data:
+        st.warning("No product data available. Please add products in the Product Database page first.")
+        if st.button("Create Sample Data Now"):
+            sample_data = create_sample_data()
+            if save_product_data(sample_data):
+                st.success("Sample data created!")
+                st.rerun()
+        return
+    
+    st.success(f"✅ {len(products_data)} products available")
+    
+    # BOQ Generation Form
+    with st.form("boq_form"):
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            st.subheader("Project Details")
+            project_name = st.text_input("Project Name*")
+            client_name = st.text_input("Client Name*")
+            project_type = st.selectbox("Project Type", [
+                "Conference Room", "Auditorium", "Classroom", 
+                "Control Room", "Retail Space", "Corporate Office"
+            ])
+            audience_size = st.number_input("Expected Audience Size", min_value=1, value=20)
+        
+        with col2:
+            st.subheader("Requirements")
+            budget_range = st.selectbox("Budget Range", [
+                "< $10,000", "$10,000 - $50,000", "$50,000 - $100,000", "> $100,000"
+            ])
+            
+            requirements = st.multiselect("Select Requirements", [
+                "Display Systems", "Audio Systems", "Control Systems",
+                "Video Conferencing", "Digital Signage", "Lighting Control",
+                "Streaming Solutions"
+            ])
+            
+            special_requirements = st.text_area("Special Requirements")
+        
+        submitted = st.form_submit_button("Generate BOQ", type="primary")
+        
+        if submitted:
+            if project_name and client_name and requirements:
+                # Generate BOQ
+                generator = SimpleBOQGenerator(products_data)
+                
+                boq_requirements = {
+                    'project_name': project_name,
+                    'client_name': client_name,
+                    'project_type': project_type,
+                    'requirements': requirements,
+                    'audience_size': audience_size,
+                    'budget_range': budget_range,
+                    'special_requirements': special_requirements
+                }
+                
+                with st.spinner("Generating BOQ..."):
+                    boq_data = generator.generate_boq(boq_requirements)
+                    
+                    # Store in session state
+                    st.session_state['current_boq'] = boq_data
+                    
+                    st.success("BOQ Generated Successfully!")
+            else:
+                st.error("Please fill in all required fields (marked with *)")
+    
+    # Display generated BOQ
+    if 'current_boq' in st.session_state:
+        boq_data = st.session_state['current_boq']
+        
+        st.subheader("Generated BOQ")
+        
+        # Project info
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            st.metric("Total Items", boq_data['item_count'])
+        with col2:
+            st.metric("Total Cost", f"${boq_data['total_cost']:,.2f}")
+        with col3:
+            st.metric("Generated", boq_data['generated_date'])
+        
+        # BOQ Items table
+        if boq_data['items']:
+            df_boq = pd.DataFrame(boq_data['items'])
+            st.dataframe(df_boq, use_container_width=True)
+            
+            # Download options
+            col1, col2 = st.columns(2)
+            with col1:
+                csv_data = df_boq.to_csv(index=False)
+                st.download_button(
+                    "Download as CSV",
+                    csv_data,
+                    f"BOQ_{boq_data['project_name']}_{datetime.now().strftime('%Y%m%d')}.csv",
+                    "text/csv"
+                )
+            
+            with col2:
+                json_data = json.dumps(boq_data, indent=2)
+                st.download_button(
+                    "Download as JSON",
+                    json_data,
+                    f"BOQ_{boq_data['project_name']}_{datetime.now().strftime('%Y%m%d')}.json",
+                    "application/json"
+                )
+        else:
+            st.warning("No suitable products found for your requirements. Try adjusting your budget range or requirements.")
+
+def show_analytics_page():
+    st.header("📈 Analytics")
+    
+    products_data = load_product_data()
+    
+    if not products_data:
+        st.warning("No product data available for analytics.")
+        return
+    
+    df = pd.DataFrame(products_data)
+    
+    # Category distribution
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        if 'category' in df.columns:
+            category_counts = df['category'].value_counts()
+            fig_pie = px.pie(
+                values=category_counts.values, 
+                names=category_counts.index, 
+                title="Product Categories Distribution"
+            )
+            st.plotly_chart(fig_pie, use_container_width=True)
+    
+    with col2:
+        if 'price' in df.columns:
+            fig_hist = px.histogram(
+                df, 
+                x='price', 
+                title="Price Distribution",
+                nbins=20
+            )
+            st.plotly_chart(fig_hist, use_container_width=True)
+    
+    # Company distribution
+    if 'company' in df.columns:
+        company_counts = df['company'].value_counts().head(10)
+        fig_bar = px.bar(
+            x=company_counts.values,
+            y=company_counts.index,
+            orientation='h',
+            title="Top 10 Companies by Product Count"
+        )
         st.plotly_chart(fig_bar, use_container_width=True)
+    
+    # Data summary
+    st.subheader("Database Summary")
+    col1, col2, col3, col4 = st.columns(4)
+    
+    with col1:
+        st.metric("Total Products", len(df))
+    with col2:
+        if 'price' in df.columns:
+            avg_price = df['price'].mean()
+            st.metric("Average Price", f"${avg_price:,.2f}")
+    with col3:
+        if 'company' in df.columns:
+            unique_companies = df['company'].nunique()
+            st.metric("Companies", unique_companies)
+    with col4:
+        if 'category' in df.columns:
+            unique_categories = df['category'].nunique()
+            st.metric("Categories", unique_categories)
 
 if __name__ == "__main__":
     main()
