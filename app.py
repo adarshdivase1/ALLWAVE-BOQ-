@@ -543,3 +543,228 @@ def show_analytics_page():
 
 if __name__ == "__main__":
     main()
+    submit_button = st.form_submit_button("Generate BOQ", type="primary")
+        
+        if submit_button:
+            if not project_name or not client_name:
+                st.error("Please fill in all required fields (marked with *)")
+            elif not requirements:
+                st.error("Please select at least one requirement")
+            else:
+                # Generate BOQ
+                generator = SimpleBOQGenerator(products_data)
+                
+                boq_requirements = {
+                    'project_name': project_name,
+                    'client_name': client_name,
+                    'project_type': project_type,
+                    'audience_size': audience_size,
+                    'budget_range': budget_range,
+                    'requirements': requirements
+                }
+                
+                with st.spinner("Generating BOQ..."):
+                    boq = generator.generate_boq(boq_requirements)
+                
+                # Display BOQ
+                st.success("BOQ Generated Successfully!")
+                
+                # BOQ Header
+                st.markdown("---")
+                st.header("📋 Bill of Quantities")
+                
+                col1, col2, col3 = st.columns(3)
+                with col1:
+                    st.info(f"**Project:** {boq['project_name']}")
+                with col2:
+                    st.info(f"**Client:** {boq['client_name']}")
+                with col3:
+                    st.info(f"**Generated:** {boq['generated_date']}")
+                
+                # BOQ Table
+                if boq['items']:
+                    df_boq = pd.DataFrame(boq['items'])
+                    
+                    # Format the display
+                    df_display = df_boq.copy()
+                    df_display['unit_cost'] = df_display['unit_cost'].apply(lambda x: f"${x:,.2f}")
+                    df_display['total_cost'] = df_display['total_cost'].apply(lambda x: f"${x:,.2f}")
+                    
+                    st.dataframe(df_display, use_container_width=True)
+                    
+                    # Summary
+                    col1, col2, col3 = st.columns(3)
+                    with col1:
+                        st.metric("Total Items", boq['item_count'])
+                    with col2:
+                        st.metric("Total Cost", f"${boq['total_cost']:,.2f}")
+                    with col3:
+                        avg_cost = boq['total_cost'] / boq['item_count'] if boq['item_count'] > 0 else 0
+                        st.metric("Average Item Cost", f"${avg_cost:,.2f}")
+                    
+                    # Export options
+                    st.markdown("---")
+                    st.subheader("Export Options")
+                    
+                    col1, col2 = st.columns(2)
+                    
+                    with col1:
+                        # CSV export
+                        csv = df_boq.to_csv(index=False)
+                        st.download_button(
+                            label="📥 Download as CSV",
+                            data=csv,
+                            file_name=f"BOQ_{project_name}_{datetime.now().strftime('%Y%m%d')}.csv",
+                            mime="text/csv"
+                        )
+                    
+                    with col2:
+                        # JSON export
+                        json_data = json.dumps(boq, indent=2)
+                        st.download_button(
+                            label="📥 Download as JSON",
+                            data=json_data,
+                            file_name=f"BOQ_{project_name}_{datetime.now().strftime('%Y%m%d')}.json",
+                            mime="application/json"
+                        )
+
+def show_analytics_page():
+    st.header("📈 Analytics Dashboard")
+    
+    products_data = load_product_data()
+    
+    if not products_data:
+        st.warning("No product data available for analytics.")
+        return
+    
+    # Convert to DataFrame for analysis
+    df = pd.DataFrame(products_data)
+    
+    # Key Metrics
+    col1, col2, col3, col4 = st.columns(4)
+    
+    with col1:
+        st.metric("Total Products", len(products_data))
+    
+    with col2:
+        categories = df['category'].nunique()
+        st.metric("Categories", categories)
+    
+    with col3:
+        avg_price = df['price'].mean()
+        st.metric("Avg Price", f"${avg_price:,.2f}")
+    
+    with col4:
+        total_value = df['price'].sum()
+        st.metric("Total Value", f"${total_value:,.2f}")
+    
+    # Charts
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        st.subheader("Products by Category")
+        category_counts = df['category'].value_counts()
+        
+        fig_pie = px.pie(
+            values=category_counts.values,
+            names=category_counts.index,
+            title="Product Distribution by Category"
+        )
+        fig_pie.update_traces(textposition='inside', textinfo='percent+label')
+        st.plotly_chart(fig_pie, use_container_width=True)
+    
+    with col2:
+        st.subheader("Price Distribution by Category")
+        fig_box = px.box(
+            df, 
+            x='category', 
+            y='price',
+            title="Price Range by Category"
+        )
+        fig_box.update_xaxes(tickangle=45)
+        st.plotly_chart(fig_box, use_container_width=True)
+    
+    # Price Range Analysis
+    st.subheader("Price Analysis")
+    
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        # Price histogram
+        fig_hist = px.histogram(
+            df, 
+            x='price', 
+            bins=20,
+            title="Price Distribution",
+            labels={'price': 'Price ($)', 'count': 'Number of Products'}
+        )
+        st.plotly_chart(fig_hist, use_container_width=True)
+    
+    with col2:
+        # Top 10 most expensive products
+        st.subheader("Top 10 Most Expensive Products")
+        top_products = df.nlargest(10, 'price')[['description', 'company', 'price']]
+        top_products['price'] = top_products['price'].apply(lambda x: f"${x:,.2f}")
+        st.dataframe(top_products, use_container_width=True, hide_index=True)
+    
+    # Company Analysis
+    st.subheader("Company Analysis")
+    
+    company_stats = df.groupby('company').agg({
+        'price': ['count', 'mean', 'sum']
+    }).round(2)
+    
+    company_stats.columns = ['Product Count', 'Avg Price', 'Total Value']
+    company_stats = company_stats.sort_values('Total Value', ascending=False)
+    
+    # Format currency columns
+    company_stats['Avg Price'] = company_stats['Avg Price'].apply(lambda x: f"${x:,.2f}")
+    company_stats['Total Value'] = company_stats['Total Value'].apply(lambda x: f"${x:,.2f}")
+    
+    st.dataframe(company_stats, use_container_width=True)
+    
+    # Advanced Filters
+    with st.expander("🔍 Advanced Product Search", expanded=False):
+        col1, col2, col3 = st.columns(3)
+        
+        with col1:
+            selected_categories = st.multiselect(
+                "Filter by Category", 
+                options=df['category'].unique(),
+                default=df['category'].unique()
+            )
+        
+        with col2:
+            price_range = st.slider(
+                "Price Range ($)",
+                min_value=float(df['price'].min()),
+                max_value=float(df['price'].max()),
+                value=(float(df['price'].min()), float(df['price'].max())),
+                format="$%.2f"
+            )
+        
+        with col3:
+            selected_companies = st.multiselect(
+                "Filter by Company",
+                options=df['company'].unique(),
+                default=df['company'].unique()
+            )
+        
+        # Apply filters
+        filtered_df = df[
+            (df['category'].isin(selected_categories)) &
+            (df['price'] >= price_range[0]) &
+            (df['price'] <= price_range[1]) &
+            (df['company'].isin(selected_companies))
+        ]
+        
+        st.write(f"**Filtered Results: {len(filtered_df)} products**")
+        
+        if len(filtered_df) > 0:
+            # Display filtered results
+            display_df = filtered_df[['description', 'company', 'category', 'price']].copy()
+            display_df['price'] = display_df['price'].apply(lambda x: f"${x:,.2f}")
+            st.dataframe(display_df, use_container_width=True, hide_index=True)
+
+if __name__ == "__main__":
+    main()
